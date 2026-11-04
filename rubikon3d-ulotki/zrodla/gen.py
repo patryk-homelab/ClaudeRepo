@@ -45,7 +45,12 @@ A_CSS = """
 .cpn .pct{font-size:36pt;font-weight:700;color:var(--red);line-height:1;letter-spacing:-.02em}
 .cpn .t{font-size:8pt;line-height:1.35}
 .cpn .code{display:inline-block;margin-top:1.6mm;font-family:'Space Mono',monospace;font-weight:700;font-size:12pt;letter-spacing:.12em;background:var(--red);color:#fff;padding:.8mm 2.4mm;border-radius:1mm}
-.bot{position:absolute;left:11mm;right:11mm;top:118mm;display:flex;gap:4.5mm;align-items:flex-start}
+.bot{position:absolute;left:11mm;right:11mm;top:118mm;display:flex;gap:4.5mm;align-items:stretch}
+.bot .txt{height:24mm;display:flex;flex-direction:column;padding:.12mm 0 .46mm} /* korekta: ink glifów (ł, /) równo z krawędziami QR */
+.bot .txt h2{text-box-trim:trim-start;text-box-edge:cap alphabetic}
+.bot .txt .wa{margin:.9mm 0 0}
+.bot .txt .contact{line-height:1.4;margin-top:auto;text-box-trim:trim-end;text-box-edge:cap alphabetic}
+.cpn .fine{display:block;margin-top:1.5mm;font-size:5.8pt;color:#8a8a8a}
 .bot .qr{width:24mm;height:24mm;flex:none}
 .bot h2{font-size:11pt;font-weight:700;color:var(--red);line-height:1.15}
 .bot .wa{font-size:7.4pt;color:var(--wa);font-weight:700;margin:1mm 0 1.4mm}
@@ -57,9 +62,9 @@ A_BODY = f"""
  <p>Twoje zamówienie wydrukowaliśmy z dbałością o każdy detal. Mamy nadzieję, że długo posłuży.</p></div>
 </div>
 <div class=cpn><div class=pct>−10%</div>
- <div class=t><b>Na Twoje następne zamówienie od 50 zł.</b><br>Podaj kod przy zamówieniu:<br><span class=code>PACZKA10</span></div></div>
+ <div class=t><b>Na Twoje następne zamówienie od 50 zł.</b><br>Podaj kod przy zamówieniu:<br><span class=code>PACZKA10</span><span class=fine>Kod ważny do odwołania.</span></div></div>
 <div class=bot><div class=qr>{qr('a')}</div>
- <div><h2>Masz pomysł?<br>Wydrukujemy to.</h2>
+ <div class=txt><h2>Masz pomysł?<br>Wydrukujemy to.</h2>
  <div class=wa>Zeskanuj i napisz na WhatsApp</div>
  <div class=contact><b>+48 609 692 311</b><br>rubikon3d.com · druk@rubikon3d.com<br>FB / IG: <b>Rubikon3D</b></div></div>
 </div>
@@ -166,11 +171,11 @@ B2_BODY = f"""
 
 # ---------- D: uniwersalna w stylu C (szerszy zakres pomysłów) ----------
 D_CSS = C_CSS + """
-.big{top:-25mm;height:70mm;right:-15mm}
-.hd{top:41mm}
+.big{top:-6mm;height:50mm;right:-5mm}
+.hd{top:37mm}
 .hd h1{font-size:26pt;line-height:1}
 .hd p{margin-top:3mm;font-size:9.2pt}
-.cats{position:absolute;left:11mm;right:11mm;top:84mm;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:2.6mm 4mm}
+.cats{position:absolute;left:11mm;right:11mm;top:79mm;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:2.6mm 4mm}
 .cats div{border-top:.25mm solid #ffffff80;padding-top:1.3mm}
 .cats b{display:block;font-family:'Space Mono',monospace;font-weight:700;font-size:6.6pt;letter-spacing:.12em}
 .cats span{display:block;font-size:7.8pt;margin-top:.3mm}
@@ -185,8 +190,8 @@ D_BODY = f"""
  <p>Pękniętą część dorobimy na wymiar. Twój pomysł zaprojektujemy od zera.</p></div>
 <div class=cats>
  <div><b>NAPRAWA</b><span>klips, pokrętło, zaślepka</span></div>
- <div><b>DOM I AUTO</b><span>uchwyt, organizer</span></div>
- <div><b>PREZENTY</b><span>brelok z imieniem</span></div>
+ <div><b>WARSZTAT I NARZĘDZIA</b><span>uchwyt na wiertła, organizer na bity, adapter do odkurzacza</span></div>
+ <div><b>PREZENTY</b><span>lampka ze zdjęciem, mapa 3D ulubionego miejsca, tabliczka</span></div>
  <div><b>FIRMY</b><span>prototyp, krótka seria</span></div>
 </div>
 <div class=card><div class=qr>{qr('d')}</div>
@@ -196,7 +201,10 @@ D_BODY = f"""
 </div>
 """
 
-for name, css, body in [("A-paczka", A_CSS, A_BODY), ("B-uslugi", B_CSS, B_BODY), ("C-czesci", C_CSS, C_BODY),
-                        ("B2-uslugi-czerwona", B2_CSS, B2_BODY), ("D-pomysly", D_CSS, D_BODY)]:
+A2_BODY = A_BODY.replace("<h1>Dziękujemy<br>za zamówienie!</h1>", "<h1>Bardzo dziękujemy<br>za zamówienie!</h1>")
+A2_CSS = A_CSS + ".thx h1{font-size:23.5pt}"
+
+# B, C, B2 odrzucone (zostają w kodzie tylko do wglądu)
+for name, css, body in [("A-paczka", A_CSS, A_BODY), ("A-paczka-bardzo-dziekujemy", A2_CSS, A2_BODY), ("D-pomysly", D_CSS, D_BODY)]:
     (B / f"{name}.html").write_text(page(body, css))
 print("ok")
