@@ -1,0 +1,24 @@
+[
+ {
+  "tool": "execute",
+  "args": {
+   "code": "from build123d import *\nbig = import_brep('WORKDIR/screwdriver_big.brp')\nsmall = import_brep('WORKDIR/screwdriver_small.brp')\nshow(big, 'comb_big')\nshow(small, 'comb_small')\nprint(big.volume, small.volume)"
+  }
+ },
+ {
+  "tool": "export",
+  "args": {
+   "filename": "ikea_skadis_screwdriver_comb_big_41393",
+   "format": "stl,3mf",
+   "object_name": "comb_big"
+  }
+ },
+ {
+  "tool": "export",
+  "args": {
+   "filename": "ikea_skadis_screwdriver_comb_small_41393",
+   "format": "stl,3mf",
+   "object_name": "comb_small"
+  }
+ }
+]
