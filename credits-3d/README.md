@@ -32,10 +32,22 @@ Data: 2026-11-04. Drukarka docelowa: Bambu Lab X2D, dysza 0,4, PETG. Licencje i 
 - Skrypty i surowe wyniki: `narzedzia/`.
 - Podgląd 3D z bitami w gniazdach: `podglad-3d.html` (otwórz w przeglądarce, potrzebny internet do three.js) albo artefakt https://claude.ai/artifact/ExojbNBGfsdRknsn7V3KSo.
 
+## Bambu Studio X2D (dopisane 04.11.2026)
+
+To samo krojenie co przy wkrętakach: Bambu Studio 2.8.2, `Bambu Lab X2D 0.4 nozzle`, `0.20mm Standard @BBL X2D`, `Bambu PETG Basic @BBL X2D 0.4 nozzle` (1,25 g/cm³), Textured PEI, podpory auto. Surowe wyniki: `narzedzia/wyniki/bambu_studio_x2d_bity.txt`.
+
+| # | Plik do druku | Podpory | Filament | Czas |
+|---|---|---|---|---|
+| 01 (P071) | oryginał | 0 | 89,37 g | 3,23 h |
+| 02 (P072) | poprawiony | 0 | 115,82 g | 5,69 h |
+| 03 (P073) | 3x7 naprawiony | 0 | 22,36 g | 1,11 h |
+| 03 (P073) | 8x4 naprawiony | 0 | 36,90 g | 1,32 h |
+| 04 (P074) | z uszami | 0 | 83,51 g | 4,29 h |
+
 ## Czego nie zrobiłem (i dlaczego)
 1. Nie zapisałem na pulpit: ta sesja działa w chmurze i nie ma dostępu do Twojego komputera. Folder jest w repo, gałąź `claude/blissful-edison-wf7mwj`.
 2. Łącznik build123d na MP i `printer.json`/`devices.json` były niedostępne, więc: brak porównania sum kontrolnych MP ↔ workspace, luz minimalny założony (0,10 mm/stronę), wersje bibliotek nieprzypięte (build123d 0.13.0, manifold3d 3.5.4, trimesh 5.2.0). Zamiast tego: ponowne uruchomienie skryptów poprawek daje identyczny STL (sha256), a 3MF różni się tylko losowymi UUID.
 3. Poprawki zrobiłem jako operacje na oryginalnej siatce (manifold3d), a nie pełną przebudowę parametryczną w build123d. Dowód zakresu zmian: objętość dodana/usunięta podana w każdym raporcie.
 4. Brak niezależnego drugiego odczytu wymiarów przez inny model (skill zapytaj-inne-ai wymaga MM).
-5. Brak kodów produktów P0xx i wpisu do arkusza „Druk 3D – rejestr druku”.
+5. Kody P0xx: dopisane później. W arkuszu „Druk 3D – rejestr druku” (zakładka Projekty): 01 = P071, 02 = P072, 03 = P073, 04 = P074 (wiersze uzupełnione 04.11.2026).
 6. Slicer to PrusaSlicer, nie Bambu Studio z profilem X2D; czasy druku z domyślnego profilu PrusaSlicera są nieprzydatne i ich nie podaję.

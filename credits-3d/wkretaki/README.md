@@ -44,4 +44,4 @@ Podgląd 3D z wkrętakami osadzonymi w uchwytach: `podglad-3d.html` (otwórz w p
 2. **Drugi odczyt przez ChatGPT/Gemini/Grok** (skill zapytaj-inne-ai) wymaga usługi AI Compare w sieci domowej. Zastąpiłem go dwoma niezależnymi odczytami dwóch różnych modeli Claude.
 3. **Wersje bibliotek** w chmurze (`narzedzia/wyniki/wersje_bibliotek_workspace.txt`) nie są potwierdzone z `requirements.txt` na MP.
 4. **Poprawki 01, 02 i 04 są operacjami na oryginalnych siatkach** (manifold3d), a nie przebudową w build123d, bo autorzy nie udostępnili źródeł CAD (01, 02), a w 04 zachowuję napisy autora. Zakres zmian jest udowodniony bilansem objętości w każdym raporcie.
-5. Brak kodów P0xx i wpisu do arkusza „Druk 3D – rejestr druku”.
+5. Kody P0xx: dopisane później. W arkuszu „Druk 3D – rejestr druku” (zakładka Projekty): 01 = P075, 02 = P076, 03 = P077, 04 = P078 (wiersze uzupełnione 04.11.2026).
