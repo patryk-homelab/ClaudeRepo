@@ -1,5 +1,6 @@
 DO ZROBIENIA - strona Rubikon 3D (warianty) i pliki do druku po podłączeniu slicera na MiniPC
-Stan na 04.11.2026 wieczorem. Folder: credits-3d (repo ClaudeRepo, gałąź claude/blissful-edison-wf7mwj).
+Stan na 04.11.2026 wieczorem. Folder: credits-3d (repo ClaudeRepo, gałąź claude/blissful-edison-wf7mwj). Raporty, pliki autorów
+i wycofane modele są tylko w repo, nie w paczce do druku.
 Arkusz: "Druk 3D - rejestr druku", zakładka Projekty.
 
 
@@ -31,9 +32,8 @@ A2. Co trzeba zbudować
 A3. Produkty, które od razu potrzebują wariantów
 1. P065 Zakrętka do kartusza: Ilość = 1 szt. 5 zł / 3 szt. 15 zł / 10 szt. 25 zł (ceny z arkusza).
 2. P078 Uchwyt na wkrętak Wera (1 szt.): grupy "Seria" (np. 350 PH, 355 PZ, 367 Torx...) i "Rozmiar".
-   - Pełna lista 140 wariantów z kodami SKU, gramami i czasem:
-     wkretaki/04_123412_wera-screwdriver-holder_ksuszka/warianty_P078_uchwyty_wera.csv
-     (średnik jako separator; otwiera się w Excelu i Arkuszach Google).
+   - Pełna lista 140 wariantów z kodami SKU, gramami i czasem: arkusz "Druk 3D - rejestr druku",
+     zakładka "Warianty P078".
    - Na start pokazać jako "od ręki" tylko 31 modeli przetestowanych przez autora (kolumna na_start = tak).
      Resztę jako "na zamówienie" (nikt ich nie sprawdził na prawdziwym wkrętaku).
    - Jedna cena za sztukę: wszystkie ważą 12,9-15,0 g i drukują się 0,89-0,94 h.
@@ -85,7 +85,7 @@ B1. Projekty Bambu robiłem w chmurze, w Bambu Studio 2.8.2 bez okna (tryb wiers
    z wera_screwdriver_holder_v3_snapfix.scad (czcionki Bahnschrift i Arial muszą być zainstalowane).
 3. P078: 5 par duplikatów w plikach autora (160i płaski 2,5 i 3,5; 917 PH3; 932A płaski 9 i 10 -
    każdy w wersji zwykłej i "v2"). Przed wystawieniem wybrać jeden plik z każdej pary
-   (kolumna "duplikat" w CSV).
+   (kolumna "Duplikat" w zakładce "Warianty P078").
 4. P078: 352 imbus 1,5 i 2 mają gniazdo rękojeści ok. 1 mm ciaśniejsze niż nowsze pliki - jeśli będą
    w ofercie, wygenerować z v3_snapfix.scad.
 
@@ -117,7 +117,7 @@ C. ARKUSZ - CO JESZCZE PUSTE
 1. Kolor (K) i karton (U) dla P071, P072, P074-P079: bez kartonu arkusz nie liczy kosztu łącznego.
 2. Cena sprzedaży (Q) dla tych produktów.
 3. P078: w kolumnach czas/gramy jest mediana 31 modeli na start (0,92 h, 13,77 g); P079: wariant
-   200 mm na wkręty (0,47 h, 18,28 g). Pełne liczby dla wariantów: CSV (P078) i tabela A3 (P079).
+   200 mm na wkręty (0,47 h, 18,28 g). Pełne liczby dla wariantów: zakładka "Warianty P078" i tabela A3 (P079).
 
 
 =====================================================================
