@@ -191,8 +191,8 @@ D_BODY = f"""
 <div class=cats>
  <div><b>NAPRAWA</b><span>klips, pokrętło, zaślepka</span></div>
  <div><b>WARSZTAT I NARZĘDZIA</b><span>uchwyt na wiertła, organizer na bity, adapter do odkurzacza</span></div>
- <div><b>PREZENTY</b><span>lampka ze zdjęciem, mapa 3D ulubionego miejsca, tabliczka</span></div>
  <div><b>FIRMY</b><span>prototyp, krótka seria</span></div>
+ <div><b>PREZENTY</b><span>lampka ze zdjęciem, mapa 3D ulubionego miejsca, tabliczka</span></div>
 </div>
 <div class=card><div class=qr>{qr('d')}</div>
  <div><h2>Wyślij zdjęcie,<br>szkic albo wymiary</h2>
