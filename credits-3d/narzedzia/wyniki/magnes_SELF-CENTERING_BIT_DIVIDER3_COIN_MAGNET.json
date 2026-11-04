@@ -1,0 +1,161 @@
+{
+ "file": "oryginal/SELF-CENTERING_BIT_DIVIDER3_COIN_MAGNET.stl",
+ "pockets": [
+  {
+   "kind": "round",
+   "centre": [
+    32.0,
+    -68.0
+   ],
+   "z_from": 2.55,
+   "z_to": 4.25,
+   "height": 1.8,
+   "width": [
+    6.08,
+    6.09
+   ],
+   "length": [
+    6.08,
+    6.09
+   ],
+   "diameter": [
+    6.09,
+    6.09
+   ],
+   "part_z": [
+    -0.0,
+    15.0
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    32.0,
+    -50.0
+   ],
+   "z_from": 2.55,
+   "z_to": 4.25,
+   "height": 1.8,
+   "width": [
+    6.08,
+    6.09
+   ],
+   "length": [
+    6.08,
+    6.09
+   ],
+   "diameter": [
+    6.09,
+    6.09
+   ],
+   "part_z": [
+    -0.0,
+    15.0
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    32.0,
+    -32.0
+   ],
+   "z_from": 2.55,
+   "z_to": 4.25,
+   "height": 1.8,
+   "width": [
+    6.08,
+    6.09
+   ],
+   "length": [
+    6.08,
+    6.09
+   ],
+   "diameter": [
+    6.09,
+    6.09
+   ],
+   "part_z": [
+    -0.0,
+    15.0
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    19.0,
+    -32.0
+   ],
+   "z_from": 2.55,
+   "z_to": 4.25,
+   "height": 1.8,
+   "width": [
+    6.08,
+    6.09
+   ],
+   "length": [
+    6.08,
+    6.09
+   ],
+   "diameter": [
+    6.09,
+    6.09
+   ],
+   "part_z": [
+    -0.0,
+    15.0
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    19.0,
+    -68.0
+   ],
+   "z_from": 2.55,
+   "z_to": 4.25,
+   "height": 1.8,
+   "width": [
+    6.08,
+    6.09
+   ],
+   "length": [
+    6.08,
+    6.09
+   ],
+   "diameter": [
+    6.09,
+    6.09
+   ],
+   "part_z": [
+    -0.0,
+    15.0
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    19.0,
+    -50.0
+   ],
+   "z_from": 2.55,
+   "z_to": 4.25,
+   "height": 1.8,
+   "width": [
+    6.08,
+    6.09
+   ],
+   "length": [
+    6.08,
+    6.09
+   ],
+   "diameter": [
+    6.09,
+    6.09
+   ],
+   "part_z": [
+    -0.0,
+    15.0
+   ]
+  }
+ ]
+}

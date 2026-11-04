@@ -14,6 +14,8 @@ Data: 2026-11-04. Drukarka: Bambu Lab X2D, dysza 0,4, PETG. Licencje i teksty do
 Podgląd 3D z wkrętakami osadzonymi w uchwytach: `podglad-3d.html` (otwórz w przeglądarce, potrzebny internet do three.js) albo artefakt https://claude.ai/artifact/GQUG9JMqrCRWQgWFQkN6tg.
 
 ## Co zrobiłem inaczej niż przy bitach (dokładność)
+Od 04.11 po południu bity dostały to samo (patrz `../README.md`). Przy okazji sprawdziłem wszystkie 158 projektów wkrętaków po wczytaniu przez Bambu: każdy ma zamkniętą siatkę i objętość jak źródło (`narzedzia/wyniki/bambu_import_projektow.json`).
+
 
 1. **Prawdziwy slicer X2D.** Bambu Studio 2.8.2.61 (Flathub, ta sama wersja co na MacBooku) w trybie wiersza poleceń, z profilami X2D wyciągniętymi z aplikacji i spłaszczonymi: `Bambu Lab X2D 0.4 nozzle`, `0.20mm Standard @BBL X2D`, `Bambu PETG Basic @BBL X2D 0.4 nozzle`, płyta Textured PEI. Wcześniej był PrusaSlicer z ogólnym profilem.
 2. **Gotowe projekty Bambu (`*_X2D_PETG.3mf`)** z ustawieniami X2D, a nie gołe siatki. Projekty nie były otwierane w aplikacji z ekranem: ponowne cięcie projektu z wiersza poleceń się nie udaje (także dla modelu, który tnie się poprawnie ze źródłowego STL, więc to ograniczenie trybu CLI). Dlatego obok każdego projektu jest też sam 3MF z geometrią.

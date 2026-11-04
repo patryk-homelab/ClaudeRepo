@@ -1,0 +1,24 @@
+placed [[87.89, 32.42, 0.0], [168.11, 223.58, 38.33]]
+final_P071_1770956 rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=59 | ; total filament weight [g] : 89.36 | time 3.27 h
+placed [[15.0, 79.0, 0.0], [241.0, 177.0, 42.0]]
+final_P072_1825701_fixed rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=31 | ; total filament weight [g] : 115.84 | time 5.71 h
+placed [[112.0, 72.76, 0.0], [144.0, 183.24, 15.47]]
+final_P073_3x7 rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=26 | ; total filament weight [g] : 22.35 | time 1.11 h
+placed [[88.0, 85.73, 0.0], [168.0, 170.27, 16.12]]
+final_P073_8x4 rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=20 | ; total filament weight [g] : 36.90 | time 1.31 h
+placed [[18.38, 85.19, 0.0], [237.62, 170.81, 14.73]]
+final_P074_146076_ears rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=2 | ; total filament weight [g] : 83.50 | time 4.07 h
+placed [[18.0, 71.0, 0.0], [238.0, 185.0, 45.0]]
+final_P075_1808383_fixed rc=0 result='Success.' support_features=0 overhang_wall=16 bridge=31 | ; total filament weight [g] : 160.53 | time 6.92 h
+placed [[6.0, 60.5, 0.0], [250.0, 195.5, 55.0]]
+final_P076_1782552_fixed rc=0 result='Success.' support_features=0 overhang_wall=16 bridge=30 | ; total filament weight [g] : 203.94 | time 8.74 h
+placed [[50.5, 105.5, 0.0], [205.5, 150.5, 28.0]]
+final_P077_comb_big rc=0 result='Success.' support_features=0 overhang_wall=8 bridge=24 | ; total filament weight [g] : 41.01 | time 1.19 h
+placed [[50.5, 105.5, 0.0], [205.5, 150.5, 28.0]]
+final_P077_comb_small rc=0 result='Success.' support_features=0 overhang_wall=8 bridge=24 | ; total filament weight [g] : 44.22 | time 1.33 h
+placed [[117.62, 102.51, 0.0], [138.38, 153.49, 4.7]]
+final_P077_hook rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=2 | ; total filament weight [g] : 1.51 | time 0.1 h
+placed [[106.0, 115.5, 0.0], [150.0, 140.5, 45.5]]
+final_P078_holex10 rc=0 result='Success.' support_features=19 overhang_wall=9 bridge=9 | ; total filament weight [g] : 14.88 | time 0.92 h
+placed [[108.0, 115.5, 0.0], [148.0, 140.5, 45.5]]
+final_P078_tx25 rc=0 result='Success.' support_features=19 overhang_wall=9 bridge=7 | ; total filament weight [g] : 13.84 | time 0.91 h

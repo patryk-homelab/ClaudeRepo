@@ -6,7 +6,7 @@
 - Komentarz 2026-09-09: „Printed 2 of them, came out perfect and work perfectly.”
 
 ## Decyzja: drukować oryginał bez zmian
-Plik: `oryginal/Bit_holder,_organizer.3mf` (siatka identyczna z STL: 2852 trójkąty, ta sama objętość).
+Projekt Bambu (X2D, bez podpór): `projekt_X2D/Bit_holder_organizer_1770956_X2D_PETG.3mf`. Sama geometria: `oryginal/Bit_holder,_organizer.3mf` (siatka identyczna z STL: 2852 trójkąty, ta sama objętość).
 
 ## Wyniki
 
@@ -33,3 +33,10 @@ Plik: `oryginal/Bit_holder,_organizer.3mf` (siatka identyczna z STL: 2852 trójk
 1. Rozstaw płaskich gniazda (model 6,60 mm).
 2. Głębokość gniazda (model 9,0 mm).
 3. Średnica otworów na wkręty (model 4,49 mm).
+
+## Dopisane 04.11.2026 (ten sam poziom sprawdzeń co przy wkrętakach)
+- Bambu Studio 2.8.2 X2D (0.20mm Standard, Bambu PETG Basic 1,25 g/cm³, Textured PEI): z podporami auto (drzewiaste, próg 30°) 0 podpór. Z ustawieniami projektu (bez podpór, model na środku stołu): 89,36 g, 3,27 h.
+- Siatka w projekcie Bambu zamknięta, 2852 trójkąty jak w pliku autora (Bambu niczego nie usuwa przy wczytaniu).
+- Wymiar bitu: ISO 1173:2001 (wydanie 3, obowiązuje; wcześniej podałem błędnie 1975), tabele 3 i 5: s 6,29–6,35 mm, e 7,11–7,18 mm, sześciokąt formy C min. 11 mm, formy E min. 25 mm. Dwa niezależne odczyty (dwa różne modele, bez wymiany wyników) zgodne. Przegląd tolerancji liczyłem dla s 6,292–6,350: różnica 0,002 mm na dolnej granicy nie zmienia wyniku (decyduje górna granica 6,35 / 7,18, ta sama).
+- Dłuższe bity: Wera i Wiha sprzedają E6.3 do 150–152 mm, obrys ok. 7 mm (karty producentów). Bity 50/70/90 mm nie kolidowały, a każdy punkt bitu dalej niż 90 mm od dna gniazda leży wyżej niż cały uchwyt, więc bity do 152 mm też się mieszczą.
+- Wkręty: 2 otwory Ø4,5 mm ze stożkiem 90° Ø9,4 mm, stożek od strony widocznej, ściana po stronie stołu; bit oddala się od ściany. Wkręt 4 mm: luz 0,25 mm na stronę, łeb do 8,9 mm chowa się w stożku (DIN 7997: 7,5 mm; SPAX 8,0; Würth ASSY 7,0–8,9 mm). Wkręt 4,5 mm nie przejdzie (luz 0). W ogłoszeniu: wkręty 3,5–4 mm z łbem stożkowym.

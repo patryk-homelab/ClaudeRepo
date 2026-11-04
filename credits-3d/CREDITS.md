@@ -18,7 +18,7 @@ Licencje sprawdzone 2026-11-04 w API Printables (pole `license`, `remixParents`)
 > Na bazie projektu „Large bit holder (wall mounted)” — Jirka, Printables (printables.com/model/1825701), licencja CC0. Zmiany: poszerzone gniazda w przednim rzędzie, otwory montażowe bez podpór.
 
 **03 (CC BY — obowiązkowe)**
-> Na bazie projektu „Ultimate Bit Holder” autorstwa Carlos Gonzalez, Printables (printables.com/model/1051202), licencja CC BY (Creative Commons — Uznanie autorstwa). Zmiany: naprawione siatki części 3x7 i 8x4 (bez zmiany kształtu).
+> Na bazie projektu „Ultimate Bit Holder” autorstwa Carlos Gonzalez, Printables (printables.com/model/1051202), licencja CC BY (Creative Commons — Uznanie autorstwa). Zmiany: naprawione siatki części 3x7 i 8x4 (bez zmiany kształtu), ramka magnesu z otworem powiększonym o 0,4 mm, części uchwytu magnetycznego ułożone na stole.
 
 Na OLX / Allegro Lokalnie, gdzie link może być niedozwolony: „Projekt: Ultimate Bit Holder, autor Carlos Gonzalez (Printables), licencja CC BY, zmodyfikowany”.
 

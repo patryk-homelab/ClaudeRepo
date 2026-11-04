@@ -1,0 +1,106 @@
+{
+ "file": "02_1825701_large-bit-holder_Jirka/oryginal/Large_bit_holder_(176_pieces).stl",
+ "bit_axis": [
+  0.0,
+  0.0,
+  1.0
+ ],
+ "holes": [
+  {
+   "axis": "y",
+   "centre": [
+    25.0,
+    165.05,
+    32.0
+   ],
+   "length": 12.0,
+   "d_min": 4.2,
+   "d_max_at_face": 8.49,
+   "countersink_end": "min",
+   "countersink_len": 2.1,
+   "countersink_angle_deg": 89.9,
+   "bit_axis_dot_wall_normal": 0.0,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.35,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.1,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.15,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  },
+  {
+   "axis": "y",
+   "centre": [
+    128.0,
+    165.05,
+    32.0
+   ],
+   "length": 12.0,
+   "d_min": 4.2,
+   "d_max_at_face": 8.49,
+   "countersink_end": "min",
+   "countersink_len": 2.1,
+   "countersink_angle_deg": 89.9,
+   "bit_axis_dot_wall_normal": 0.0,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.35,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.1,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.15,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  },
+  {
+   "axis": "y",
+   "centre": [
+    231.0,
+    165.05,
+    32.0
+   ],
+   "length": 12.0,
+   "d_min": 4.2,
+   "d_max_at_face": 8.49,
+   "countersink_end": "min",
+   "countersink_len": 2.1,
+   "countersink_angle_deg": 89.9,
+   "bit_axis_dot_wall_normal": 0.0,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.35,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.1,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.15,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  }
+ ]
+}

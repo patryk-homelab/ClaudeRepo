@@ -1,0 +1,109 @@
+{
+ "file": "oryginal/MAGNETIC_BIT_HOLDER.stl",
+ "pockets": [
+  {
+   "kind": "round",
+   "centre": [
+    52.0,
+    -23.6
+   ],
+   "z_from": -0.6,
+   "z_to": 1.8,
+   "height": 2.5,
+   "width": [
+    6.19,
+    6.19
+   ],
+   "length": [
+    6.19,
+    6.2
+   ],
+   "diameter": [
+    6.19,
+    6.19
+   ],
+   "part_z": [
+    -2.85,
+    5.65
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    52.0,
+    -12.0
+   ],
+   "z_from": -0.6,
+   "z_to": 1.8,
+   "height": 2.5,
+   "width": [
+    6.19,
+    6.19
+   ],
+   "length": [
+    6.19,
+    6.2
+   ],
+   "diameter": [
+    6.19,
+    6.19
+   ],
+   "part_z": [
+    -2.85,
+    5.65
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    85.0,
+    -23.6
+   ],
+   "z_from": -0.6,
+   "z_to": 1.8,
+   "height": 2.5,
+   "width": [
+    6.19,
+    6.19
+   ],
+   "length": [
+    6.19,
+    6.2
+   ],
+   "diameter": [
+    6.19,
+    6.19
+   ],
+   "part_z": [
+    -2.85,
+    5.65
+   ]
+  },
+  {
+   "kind": "round",
+   "centre": [
+    85.0,
+    -12.0
+   ],
+   "z_from": -0.6,
+   "z_to": 1.8,
+   "height": 2.5,
+   "width": [
+    6.19,
+    6.19
+   ],
+   "length": [
+    6.19,
+    6.2
+   ],
+   "diameter": [
+    6.19,
+    6.19
+   ],
+   "part_z": [
+    -2.85,
+    5.65
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "file": "SINGLE_HOLDER_FOR_COIN_MAGNET.stl",
+ "pocket_axis": "y",
+ "face_y": -1.0,
+ "round_from_y": 0.22,
+ "round_to_y": 2.47,
+ "depth_mm": 3.52,
+ "diameter": [
+  6.097,
+  6.1
+ ],
+ "pockets": 2
+}

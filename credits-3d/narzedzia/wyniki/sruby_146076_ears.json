@@ -1,0 +1,74 @@
+{
+ "file": "04_146076_hex-bit-holder_GUZ_prints/poprawiony/hex_bit_holder_v1_mounting_ears.3mf",
+ "bit_axis": [
+  0.6428,
+  0.0,
+  0.766
+ ],
+ "holes": [
+  {
+   "axis": "z",
+   "centre": [
+    -54.94,
+    35.5,
+    0.05
+   ],
+   "length": 5.0,
+   "d_min": 4.5,
+   "d_max_at_face": 8.89,
+   "countersink_end": "max",
+   "countersink_len": 2.2,
+   "countersink_angle_deg": 90.0,
+   "bit_axis_dot_wall_normal": 0.766,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.5,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.25,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.0,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  },
+  {
+   "axis": "z",
+   "centre": [
+    138.3,
+    35.5,
+    0.05
+   ],
+   "length": 5.0,
+   "d_min": 4.5,
+   "d_max_at_face": 8.89,
+   "countersink_end": "max",
+   "countersink_len": 2.2,
+   "countersink_angle_deg": 90.0,
+   "bit_axis_dot_wall_normal": 0.766,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.5,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.25,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.0,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  }
+ ]
+}

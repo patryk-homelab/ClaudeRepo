@@ -1,0 +1,74 @@
+{
+ "file": "01_1770956_bit-holder-organizer_Jirka/oryginal/Bit_holder,_organizer.stl",
+ "bit_axis": [
+  0.3698,
+  -0.0005,
+  0.9291
+ ],
+ "holes": [
+  {
+   "axis": "z",
+   "centre": [
+    158.18,
+    44.93,
+    0.05
+   ],
+   "length": 8.6,
+   "d_min": 4.5,
+   "d_max_at_face": 9.43,
+   "countersink_end": "max",
+   "countersink_len": 2.400000000000001,
+   "countersink_angle_deg": 89.9,
+   "bit_axis_dot_wall_normal": 0.929,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.5,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.25,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": true
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.0,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  },
+  {
+   "axis": "z",
+   "centre": [
+    158.41,
+    211.07,
+    0.05
+   ],
+   "length": 8.6,
+   "d_min": 4.5,
+   "d_max_at_face": 9.43,
+   "countersink_end": "max",
+   "countersink_len": 2.400000000000001,
+   "countersink_angle_deg": 89.9,
+   "bit_axis_dot_wall_normal": 0.929,
+   "screw_fit": {
+    "3.5": {
+     "shank_clear_per_side": 0.5,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": null
+    },
+    "4.0": {
+     "shank_clear_per_side": 0.25,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": true
+    },
+    "4.5": {
+     "shank_clear_per_side": -0.0,
+     "flush_DIN7997": true,
+     "flush_manufacturer_max": false
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "file": "oryginal/BAR_MAGNET_FRAME_60X10.stl",
+ "pockets": [
+  {
+   "kind": "rect",
+   "centre": [
+    -49.0,
+    5.0
+   ],
+   "z_from": 0.05,
+   "z_to": 2.75,
+   "height": 2.8,
+   "width": [
+    10.0,
+    10.0
+   ],
+   "length": [
+    60.0,
+    60.0
+   ],
+   "diameter": null,
+   "part_z": [
+    0.0,
+    2.8
+   ]
+  }
+ ]
+}
