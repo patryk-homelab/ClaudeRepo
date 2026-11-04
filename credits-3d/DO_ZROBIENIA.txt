@@ -1,9 +1,21 @@
 DO ZROBIENIA - strona Rubikon 3D (warianty) i pliki do druku po podłączeniu slicera na MiniPC
 Stan na 04.11.2026 wieczorem. Folder: credits-3d (repo ClaudeRepo, gałąź claude/blissful-edison-wf7mwj).
-Paczka do druku (credits-3d.zip) ma tylko: projekty Bambu, zapasową geometrię, skrypty z wynikami i ten plik.
+Paczka do druku (credits-3d.zip): jeden folder na produkt, nazwany kodem z arkusza:
+  P071 - Listwa ścienna na bity                      (repo: 01_1770956_bit-holder-organizer_Jirka)
+  P072 - Duża listwa ścienna na 320 bitów            (repo: 02_1825701_large-bit-holder_Jirka)
+  P074 - Uchwyt ścienny na bity pod kątem            (repo: 04_146076_hex-bit-holder_GUZ_prints)
+  P075 - Uchwyt ścienny na wkrętaki 220 mm           (repo: wkretaki/01_1808383_...)
+  P076 - Półokrągły uchwyt ścienny na wkrętaki       (repo: wkretaki/02_1782552_...)
+  P077 - Grzebień na wkrętaki do tablicy IKEA SKÅDIS (repo: wkretaki/03_41393_...)
+  P078 - Uchwyt na wkrętak Wera                      (repo: wkretaki/04_123412_...)
+  P079 - Szyna do uchwytów na wkrętaki Wera          (repo: wkretaki/04_123412_.../poprawiony/szyny)
+  narzedzia/bity, narzedzia/wkretaki                 (repo: narzedzia, wkretaki/narzedzia)
+W folderze produktu: projekt(y) Bambu *_X2D_PETG.3mf, podfolder "zapasowa geometria" (sam kształt, bez ustawień)
+i podfolder "skrypty" (poprawki). P071, P077 (hak) i P079 to pliki autorów bez zmian, więc nie mają zapasowej geometrii.
 Tylko w repo: pliki autorów, raporty i README, CREDITS.md (teksty licencji), rendery, podglądy 3D,
 wycofane modele. Podglądy 3D są też online: bity https://claude.ai/artifact/ExojbNBGfsdRknsn7V3KSo,
 wkrętaki https://claude.ai/artifact/GQUG9JMqrCRWQgWFQkN6tg
+Ścieżki w tym pliku dotyczą paczki; przy rzeczach "tylko w repo" podana jest ścieżka w repo.
 Arkusz: "Druk 3D - rejestr druku", zakładka Projekty.
 
 
@@ -82,7 +94,7 @@ B1. Projekty Bambu robiłem w chmurze, w Bambu Studio 2.8.2 bez okna (tryb wiers
    X2D 0.4 / 0.20mm Standard / Bambu PETG Basic / Textured PEI. Zapisać ponownie z aplikacji.
    Lista: bity P071, P072, P074 (3 pliki); wkrętaki P075, P076 (2), P077 (grzebień mały, duży, hak),
    P078 (140 uchwytów), P079 (12 szyn).
-   Jeśli projekt się nie otworzy: dla poprawionych modeli w paczce jest obok sam kształt (.3mf bez "_X2D_PETG").
+   Jeśli projekt się nie otworzy: dla poprawionych modeli jest sam kształt w podfolderze "zapasowa geometria".
    P071, hak z P077 i szyny P079 to pliki autorów bez zmian - ich kształt jest tylko w repo (folder oryginal)
    albo na Printables.
    Skrypty poprawek też potrzebują plików autorów jako wejścia (repo albo Printables).
@@ -90,7 +102,8 @@ B1. Projekty Bambu robiłem w chmurze, w Bambu Studio 2.8.2 bez okna (tryb wiers
    (180-197 fragmentów zamiast 19): 334 płaski 5, 335 płaski 4 i 5,5, 350 PH1, 352 imbus 1,5/2/4,
    355 PZ1, 367 TX15, 367 TX20. Tak samo w oryginałach autora (sprawdzone na 2 z 10). Obejrzeć w Bambu
    z ekranem, czy podpora nie zostawi brzydkiego śladu. W razie potrzeby wygenerować te uchwyty od nowa
-   z wera_screwdriver_holder_v3_snapfix.scad (czcionki Bahnschrift i Arial muszą być zainstalowane).
+   z wera_screwdriver_holder_v3_snapfix.scad (folder "P078 - Uchwyt na wkrętak Wera/skrypty";
+   czcionki Bahnschrift i Arial muszą być zainstalowane).
 3. P078: 5 par duplikatów w plikach autora (160i płaski 2,5 i 3,5; 917 PH3; 932A płaski 9 i 10 -
    każdy w wersji zwykłej i "v2"). Przed wystawieniem wybrać jeden plik z każdej pary
    (kolumna "Duplikat" w zakładce "Warianty P078").
@@ -108,9 +121,9 @@ B2. Kalibracja i biblioteka (build123d-mcp na MiniPC)
    łby wkrętów (DIN 7997: 3,5 mm = 6,5; 4 mm = 7,5; 4,5 mm = 8,3 mm). Źródła: kolumna "Źródło wymiarów"
    w arkuszu, a pełne opisy w README i raportach (tylko w repo).
 5. Porównać sumy kontrolne MiniPC <-> chmura: eksport 41393
-   (wkretaki/narzedzia/build123d_41393/README.txt; potrzebne pliki FreeCAD autora - tylko w repo,
+   (narzedzia/wkretaki/build123d_41393/README.txt; potrzebne pliki FreeCAD autora - tylko w repo,
    wkretaki/03_.../oryginal/) i wersje bibliotek
-   (requirements.txt na MiniPC vs wkretaki/narzedzia/wyniki/wersje_bibliotek_workspace.txt).
+   (requirements.txt na MiniPC vs narzedzia/wkretaki/wyniki/wersje_bibliotek_workspace.txt).
 6. Opcjonalnie: drugi odczyt danych przez ChatGPT/Gemini/Grok (skill zapytaj-inne-ai, Mac mini).
 
 B3. Pliki na dysku wg Twojej konwencji (jak P061-P065)
