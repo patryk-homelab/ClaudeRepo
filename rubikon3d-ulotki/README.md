@@ -10,6 +10,8 @@ Zestaw do druku (2 × 500 szt.):
 - **A-paczka-bardzo-dziekujemy** – to samo z nagłówkiem „Bardzo dziękujemy za zamówienie!” (do porównania, wybrać jedną).
 - **D-pomysly** – uniwersalna: „Zepsuło się? Nie ma w sklepie? Wydrukujemy to.” + 4 kategorie.
 
+`facebook/` – grafika 1080×1080 (2160 px) do komentarzy w grupach + gotowe teksty (`teksty.md`). QR → WhatsApp z wiadomością „Piszę z grupy na Facebooku”. Generator: `zrodla/social.py`.
+
 `odrzucone/` – warianty B, B2, C (odrzucone, zostawione do wglądu).
 
 QR → WhatsApp +48 609 692 311 z inną gotową wiadomością na każdej ulotce (widać, z której ulotki ktoś pisze).
