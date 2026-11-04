@@ -10,9 +10,16 @@ def qr(k):
     s = re.sub(r'width="\d+" height="\d+"', f'viewBox="0 0 {n} {n}" shape-rendering="crispEdges"', s, count=1)
     return s
 
-ISO = """<svg class="iso" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="iso{id}" width="13.856mm" height="8mm" patternUnits="userSpaceOnUse" viewBox="0 0 13.856 8">
-<g stroke="{c}" stroke-width="{w}" fill="none"><path d="M0 -1V9M6.928 -1V9M13.856 -1V9M0 0L13.856 8M0 8L13.856 0M-6.928 4L6.928 12M-6.928 4L6.928 -4M6.928 -4L20.784 4M6.928 12L20.784 4"/></g></pattern></defs>
+GRID_SCALE = 0.6   # 1.0 = oczko 6.9 mm; mniejsze = drobniejsza siatka
+GRID_W = 0.25      # grubość linii siatki w mm (fizycznie, niezależnie od skali)
+class _Iso:
+    T = """<svg class="iso" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="iso{id}" width="{pw:.4f}mm" height="{ph:.4f}mm" patternUnits="userSpaceOnUse" viewBox="0 0 13.856 8">
+<g stroke="{c}" stroke-width="{sw:.4f}" fill="none"><path d="M0 -1V9M6.928 -1V9M13.856 -1V9M0 0L13.856 8M0 8L13.856 0M-6.928 4L6.928 12M-6.928 4L6.928 -4M6.928 -4L20.784 4M6.928 12L20.784 4"/></g></pattern></defs>
 <rect width="100%" height="100%" fill="url(#iso{id})"/></svg>"""
+    def format(self, w, id, c, s=None):
+        s = s or GRID_SCALE
+        return self.T.format(pw=13.856 * s, ph=8 * s, sw=GRID_W / s, id=id, c=c)
+ISO = _Iso()
 
 CSS = (A / "fonts.css").read_text() + """
 :root{--red:#E51636;--pink:#F9CDC6;--mid:#F39890;--ink:#1D1D1B;--wa:#40BB61}
