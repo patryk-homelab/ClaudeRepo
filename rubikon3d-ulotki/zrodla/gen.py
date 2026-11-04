@@ -54,10 +54,10 @@ A_BODY = f"""
 <div class=top>{ISO.format(id='a', c='#ffffff33')}
  <div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div>
  <div class=thx><h1>Dziękujemy<br>za zamówienie!</h1>
- <p>Twoje zamówienie wydrukowaliśmy z dbałością o każdy detal. Mamy nadzieję, że posłuży długo.</p></div>
+ <p>Twoje zamówienie wydrukowaliśmy z dbałością o każdy detal. Mamy nadzieję, że długo posłuży.</p></div>
 </div>
 <div class=cpn><div class=pct>−10%</div>
- <div class=t><b>Na Twoje następne zamówienie.</b><br>Podaj kod przy zamówieniu:<br><span class=code>PACZKA10</span></div></div>
+ <div class=t><b>Na Twoje następne zamówienie od 50 zł.</b><br>Podaj kod przy zamówieniu:<br><span class=code>PACZKA10</span></div></div>
 <div class=bot><div class=qr>{qr('a')}</div>
  <div><h2>Masz pomysł?<br>Wydrukujemy to.</h2>
  <div class=wa>Zeskanuj i napisz na WhatsApp</div>
@@ -167,12 +167,13 @@ B2_BODY = f"""
 # ---------- D: uniwersalna w stylu C (szerszy zakres pomysłów) ----------
 D_CSS = C_CSS + """
 .big{top:-25mm;height:70mm;right:-15mm}
-.hd{top:47mm}
-.hd h1{font-size:29pt}
-.hd p{margin-top:2.8mm;font-size:9.4pt}
-.cats{position:absolute;left:11mm;right:11mm;top:83mm;color:#fff;display:grid;grid-template-columns:max-content 1fr;column-gap:3.5mm;row-gap:1.15mm;font-size:7.6pt;line-height:1.25}
-.cats dt{font-family:'Space Mono',monospace;font-weight:700;font-size:6.8pt;letter-spacing:.1em;padding-top:.25mm}
-.cats dd{opacity:.95}
+.hd{top:41mm}
+.hd h1{font-size:26pt;line-height:1}
+.hd p{margin-top:3mm;font-size:9.2pt}
+.cats{position:absolute;left:11mm;right:11mm;top:84mm;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:2.6mm 4mm}
+.cats div{border-top:.25mm solid #ffffff80;padding-top:1.3mm}
+.cats b{display:block;font-family:'Space Mono',monospace;font-weight:700;font-size:6.6pt;letter-spacing:.12em}
+.cats span{display:block;font-size:7.8pt;margin-top:.3mm}
 .card{height:36mm}
 .card .qr{width:26mm;height:26mm}
 """
@@ -180,15 +181,14 @@ D_BODY = f"""
 <div class=bg></div>{ISO.format(id='d', c='#ffffff2e')}
 <img class=big src="assets/cube.svg">
 <img class=brand src="assets/wordmark.svg">
-<div class=hd><h1>Nie ma w sklepie?<br>Wydrukujemy to.</h1>
- <p>Ty masz pomysł, my projektujemy i drukujemy w 3D. Na wymiar, od jednej sztuki.</p></div>
-<dl class=cats>
- <dt>NAPRAWA</dt><dd>klips, pokrętło, zaślepka, nóżka</dd>
- <dt>DOM</dt><dd>uchwyt, organizer, haczyk, stojak</dd>
- <dt>AUTO</dt><dd>uchwyt na telefon, klips, osłona</dd>
- <dt>PREZENTY</dt><dd>brelok z imieniem, figurka, tabliczka</dd>
- <dt>FIRMY</dt><dd>prototyp, krótka seria, gadżet z logo</dd>
-</dl>
+<div class=hd><h1>Zepsuło się?<br>Nie ma w sklepie?<br>Wydrukujemy to.</h1>
+ <p>Pękniętą część dorobimy na wymiar. Twój pomysł zaprojektujemy od zera.</p></div>
+<div class=cats>
+ <div><b>NAPRAWA</b><span>klips, pokrętło, zaślepka</span></div>
+ <div><b>DOM I AUTO</b><span>uchwyt, organizer</span></div>
+ <div><b>PREZENTY</b><span>brelok z imieniem</span></div>
+ <div><b>FIRMY</b><span>prototyp, krótka seria</span></div>
+</div>
 <div class=card><div class=qr>{qr('d')}</div>
  <div><h2>Wyślij zdjęcie,<br>szkic albo wymiary</h2>
  <div class=wa>Zeskanuj i napisz na WhatsApp</div>

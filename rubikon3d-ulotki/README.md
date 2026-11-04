@@ -5,11 +5,11 @@
 | `*-druk-spad3mm.pdf` | do drukarni: 111×154 mm (A6 105×148 + 3 mm spadu), TrimBox ustawiony |
 | `*-podglad.png` | podgląd po przycięciu do A6 |
 
-- **A-paczka** – wkładka do paczki: podziękowanie + kod `PACZKA10` (−10%).
+- **A-paczka** – wkładka do paczki: podziękowanie + kod `PACZKA10` (−10% od 50 zł).
 - **B-uslugi** – ogólna, do zostawiania w punktach: 3 kroki + przykłady.
 - **C-czesci** – haczyk „Zepsuło się? Nie wyrzucaj.”: części zamienne na wymiar.
 - **B2-uslugi-czerwona** – treść B w układzie A (bez czarnej stopki).
-- **D-pomysly** – uniwersalna w stylu C: „Nie ma w sklepie? Wydrukujemy to.” + 5 kategorii pomysłów.
+- **D-pomysly** – uniwersalna (połączenie C i D): „Zepsuło się? Nie ma w sklepie? Wydrukujemy to.” + 4 kategorie.
 
 QR → WhatsApp +48 609 692 311 z inną gotową wiadomością na każdej ulotce (widać, z której ulotki ktoś pisze).
 
