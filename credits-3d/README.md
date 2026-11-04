@@ -10,17 +10,23 @@ Data: 2026-11-04. Drukarka docelowa: Bambu Lab X2D, dysza 0,4, PETG. Licencje i 
 |---|---|---|---|---|
 | 01 | [1770956 Bit holder, organizer](https://www.printables.com/model/1770956) — Jirka | CC0 | `projekt_X2D/Bit_holder_organizer_1770956_X2D_PETG.3mf` | OK bez zmian. 74 gniazda, luz 0,12 mm/stronę, 0 podpór. Wkręty 4 mm |
 | 02 | [1825701 Large bit holder](https://www.printables.com/model/1825701) — Jirka | CC0 | `poprawiony/Large_bit_holder_320_fixed_X2D_PETG.3mf` | Poprawiony: 16 gniazd w przednim rzędzie było za ciasnych (luz 0,01 mm). 320 gniazd, luz 0,15 mm, 0 podpór. Wkręty 3,5 mm |
-| 03 | [1051202 Ultimate Bit Holder](https://www.printables.com/model/1051202) — Carlos Gonzalez | CC BY | `poprawiony/*_X2D_PETG.3mf` (3x7, 8x4, ramka magnesu, MAGNETIC_BIT_HOLDER) + `projekt_X2D/` (reszta części) | Siatki 3x7 i 8x4 naprawione; **nowa ramka magnesu z luzem** (u autora otwór = magnes); 2 części położone na stole. Wszystko bez podpór. System na obrotową podstawę z magnesami (kupowane osobno) |
+| 03 | [1051202 Ultimate Bit Holder](https://www.printables.com/model/1051202) — Carlos Gonzalez | CC BY | `poprawiony/*_X2D_PETG.3mf` (3x7, 8x4) + `projekt_X2D/` (przegródki, etykiety) | Siatki 3x7 i 8x4 naprawione. **Części na magnesy wycofane** (patrz niżej). Bez podpór. Autor zaprojektował całość na obrotową podstawę z magnesami |
 | 04 | [146076 Hex Bit Holder](https://www.printables.com/model/146076) — GUZ_prints | CC0 | `poprawiony/hex_bit_holder_v1_mounting_ears_X2D_PETG.3mf` | Poprawiony: dodane 2 uszy na wkręty 4 mm (stożek Ø9,5). **Plik z 04.11 rano miał 2 zerowe trójkąty i otwierał się w Bambu dziurawy — zastąpiony.** 144 rurki, luz 0,25 mm |
 
 Kody w arkuszu „Druk 3D – rejestr druku”: 01 = P071, 02 = P072, 03 = P073, 04 = P074.
+
+## Wycofane: wszystkie części na magnesy (04.11.2026 wieczorem, decyzja Patryka)
+Przeniesione do `_wycofane_magnesy_2026-11-04/` (te same ścieżki co wcześniej, nic nie skasowane; ostateczne usunięcie zostaje Tobie):
+- 1051202: ramki magnesu sztabkowego (autora i moja z luzem), SELF-CENTERING…COIN_MAGNET, SINGLE_HOLDER_FOR_COIN_MAGNET = Bore_Bit_Holder, MAGNETIC_BIT_HOLDER = HEX_BIT_Extension_HOLDERs_v3 (i moja wersja na stole), socket_extension_holder (oba pliki), DIVIDERS_AND_COIN_MAGNET_HOLDER, **Amana i DeWalt** (mają po 2 gniazda Ø6,1–6,2 mm na magnesy okrągłe — sprawdzone przekrojami) oraz ich projekty Bambu i kod ramki.
+- 123412 (wkrętaki Wera): szyna `rail_200mm_magnets_10x3mm` i jej projekt.
+- Zostały z 1051202: uchwyty bitów 3x7 i 8x4, przegródki DIVIDER_1…8 i SMALL_DIVIDER_2_ENLARGED, etykiety screw_head_labels — bez gniazd na magnesy. Uwaga: autor pisze, że cały system jest „optimized to work with magnets” (magnesy pod uchwytami przyciągają bity). Bez magnesów bity trzymają się w gniazdach pod kątem 45° tylko grawitacją i tarciem (wniosek, nie sprawdzone wydrukiem).
 
 ## Co zrobiłem 04.11 po południu (ten sam poziom co przy wkrętakach)
 1. **Bambu Studio 2.8.2 z profilem X2D** zamiast PrusaSlicera: każda część pocięta z podporami auto (drzewiaste, próg 30°), oryginały też (przed/po). Czasy i gramy z ustawieniami zapisanymi w projekcie.
 2. **Projekty Bambu `*_X2D_PETG.3mf`** dla każdego pliku do druku (22 projekty). W każdym sprawdziłem siatkę po wczytaniu przez Bambu: zamknięta, liczba trójkątów jak w źródle. Ten test znalazł błąd w 04 (poprawiony) i potwierdził wszystkie 158 projektów wkrętaków.
 3. **Dwa niezależne odczyty danych** (dwa różne modele, bez wymiany wyników): norma bitu, długości bitów, łby wkrętów, magnesy. Wynik: tabela niżej; obowiązuje ISO 1173:2001, nie 1975.
 4. **Nowe sprawdzenia z tych danych:** łby wkrętów w stożkach (01, 02, 04), magnesy w gniazdach (03), bity do 152 mm i ściana (wszystkie).
-5. **build123d-mcp:** nowa ramka magnesu zbudowana i sprawdzona narzędziem skilla (`validate`, `analyze_printability`, `export`), eksport powtarzalny.
+5. **build123d-mcp:** nowa ramka magnesu zbudowana i sprawdzona narzędziem skilla (`validate`, `analyze_printability`, `export`), eksport powtarzalny. Wieczorem wycofana razem z magnesami (`_wycofane_magnesy_2026-11-04/`).
 6. **Dokładne źródła:** sprawdziłem STEP autora 146076. Bryła v1 w nim to ta sama siatka co STL (nie dokładniejsza); prawdziwy CAD ma tylko v2 z cieńszymi ściankami. 01, 02, 03 mają tylko siatki. Poprawki zostają więc operacjami na siatce, z bilansem objętości.
 
 ## Dane urządzeń (bity, wkręty, magnesy)
@@ -55,8 +61,8 @@ Bambu Studio 2.8.2, `Bambu Lab X2D 0.4 nozzle`, `0.20mm Standard @BBL X2D`, `Bam
 | 01 (P071) | oryginał | 0 | 89,36 g | 3,27 h |
 | 02 (P072) | poprawiony | 0 → 0 (PrusaSlicer: 155 → 0) | 115,84 g | 5,71 h |
 | 03 (P073) | 3x7 / 8x4 naprawione | 0 → 0 (PrusaSlicer 3x7: 42 → 0) | 22,35 g / 36,90 g | 1,11 h / 1,31 h |
-| 03 (P073) | RIGHT_ANGLE / Dewalt 90° | 340 → 0 (ułożenie z 3MF autora) | 11,57 g | 0,50 h |
-| 03 (P073) | MAGNETIC_BIT_HOLDER | 7 → 0 (obie części na stole) | 6,88 g | 0,27 h |
+| 03 (P073) | RIGHT_ANGLE / Dewalt 90° (wycofany: magnesy) | 340 → 0 (ułożenie z 3MF autora) | 11,57 g | 0,50 h |
+| 03 (P073) | MAGNETIC_BIT_HOLDER (wycofany: magnesy) | 7 → 0 (obie części na stole) | 6,88 g | 0,27 h |
 | 04 (P074) | z uszami | 0 → 0 | 83,50 g | 4,07 h |
 
 ## Czego nie zrobiłem (i dlaczego)

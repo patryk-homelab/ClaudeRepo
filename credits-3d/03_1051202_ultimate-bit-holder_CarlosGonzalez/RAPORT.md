@@ -5,6 +5,8 @@
 - To **system**, nie jedna część: elementy klejone (CA) na obrotową podstawę 9"/10" („lazy susan”), z magnesami sztabkowymi 60 × 10 mm i okrągłymi 6 × 3 mm — wszystko kupowane osobno (linki Amazon w opisie autora). Część uchwytów jest pod konkretne narzędzia: Amana (pogłębiacz), DeWalt (przystawka kątowa), wiertła do drewna, przedłużki.
 - Przy sprzedaży obowiązuje podanie autora (CC BY) — tekst w `../CREDITS.md`.
 
+> **04.11.2026 wieczorem: wszystkie części na magnesy wycofane** (przeniesione do `../_wycofane_magnesy_2026-11-04/`, patrz `../README.md`). Zostały 3x7, 8x4, przegródki i etykiety. Opisy części magnetycznych niżej zostają jako zapis sprawdzeń.
+
 ## Części na bity sześciokątne — poprawione
 Pliki: `poprawiony/3x7_hex_bit_holder_angled_repaired.3mf`, `poprawiony/8x4_hex_bit_holder_angled_repaired.3mf`. Skrypt: `poprawiony/repair.py`.
 

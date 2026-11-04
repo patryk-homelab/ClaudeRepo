@@ -4,11 +4,11 @@
 - Printables (2026-11-04): 437 polubień, 1911 pobrań, 36 wydruków, ocena 4,87 (31 ocen).
 - System modułowy: 140 uchwytów (każdy pod konkretny wkrętak Wera lub Holex), 13 szyn, 5 dystansów, skrypty OpenSCAD v1/v2/v3, rysunki DXF.
 
-## Decyzja: drukować uchwyty z `poprawiony/`, szyny z `oryginal/`
+## Decyzja: drukować uchwyty z `poprawiony/`, szyny z `poprawiony/szyny/` (kształt szyn bez zmian)
 - Projekty Bambu (X2D, PETG, podpora tylko od stołu pod tylną wnęką, tak jak zaleca autor): `poprawiony/*_snapfix_X2D_PETG.3mf` (140 plików).
 - Sama geometria: `poprawiony/*_snapfix.3mf`; skrypt: `poprawiony/wera_snapfix.py`; raport każdego pliku: `poprawiony/snapfix_report.json`.
 - Nowe, własne uchwyty: `poprawiony/wera_screwdriver_holder_v3_snapfix.scad` (parametr `snap_relief_end_y = 12`; `0` = oryginał).
-- Projekty szyn: `poprawiony/szyny/*_X2D_PETG.3mf`.
+- Projekty szyn: `poprawiony/szyny/*_X2D_PETG.3mf` (12 szyn, wypełnienie 100% jak zaleca autor; szyna na magnesy wycofana).
 
 ## Co było nie tak: zatrzask pęka
 Komentarze: 2023-11-21 „every time I want to hook the holder onto the rail, the thin part breaks off”, 2025-02-13 „very fragile to breaking when mounting on a rail”, 2025-07-20 „issues with broken clips”, 2024-02-05 „hard time attaching”.
@@ -51,3 +51,25 @@ Najpierw zahacz górny haczyk uchwytu o górną krawędź szyny, trzymając uchw
 1. Wpięcie na szynę: czy stopka zatrzaskuje się palcem bez trzasku materiału.
 2. Szczelina odciążająca (1,0 mm), czy nie zarosła.
 3. Gniazdo trzonka wybranego uchwytu vs trzonek wkrętaka.
+
+## Dopisane 04.11.2026 wieczorem
+- **Szyny z wypełnieniem 100%** (autor: „I recommend to print rails with 100% infill”). Wcześniejsze projekty miały domyślne 15%. Wzór wypełnienia zig-zag, bo Bambu nie przyjmuje wzoru grid przy 100%. Reszta ustawień i ułożenie bez zmian; siatki w projektach zamknięte. Z ustawieniami projektu:
+
+| Szyna | Filament | Czas | Podpory |
+|---|---|---|---|
+| 81,76 mm (ściana plaster miodu) | 7,48 g | 0,21 h | 0 |
+| 122,64 mm (plaster miodu) | 11,17 g | 0,30 h | 0 |
+| 163,52 mm (plaster miodu) | 14,86 g | 0,39 h | 0 |
+| 245,28 mm (plaster miodu) | 22,26 g | 0,59 h | 0 |
+| 200 mm, otwory co 50 mm | 18,28 g | 0,47 h | 0 |
+| 240 mm, otwory co 40 mm | 21,75 g | 0,57 h | 0 |
+| 250 mm, otwory co 50 mm | 22,83 g | 0,59 h | 0 |
+| 270 mm, otwory co 45 mm (po przekątnej) | 24,13 g | 0,57 h | 0 |
+| 240 mm IKEA SKÅDIS | 25,88 g | 0,76 h | 24 fragmenty |
+| 8" otwory co 1" | 18,04 g | 0,51 h | 0 |
+| 8" tablica calowa cienka | 19,50 g | 0,59 h | 0 |
+| 2" tablica calowa cienka | 4,94 g | 0,24 h | 0 |
+
+Dla porównania: szyna 200 mm przy 15% — 15,64 g. Surowe wyniki: `../narzedzia/wyniki/szyny_wera_100proc.txt`.
+- **Szyna na magnesy 10 × 3 mm wycofana** (decyzja Patryka: bez magnesów) — w `../../_wycofane_magnesy_2026-11-04/`.
+- **Napisy są wypukłe:** skrypt autora dodaje je jako wypukłość 1 mm na froncie (`linear_extrude(height = 1)`), sprawdzone na pliku: ostatni 1 mm wysokości to same napisy (86 mm² przekroju, przód 473 mm²). Uchwyt drukuje się na plecach, więc napisy są na górze — **podpór nie potrzebują**. Zmiana koloru na ostatnich warstwach jest opcjonalna; w jednym kolorze napis jest czytelny jako relief.

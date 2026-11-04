@@ -9,7 +9,7 @@ Data: 2026-11-04. Drukarka: Bambu Lab X2D, dysza 0,4, PETG. Licencje i teksty do
 | 01 | [1808383 Large screwdriver holder (honeycomb)](https://www.printables.com/model/1808383) — Jirka | CC0 | `poprawiony/…_X2D_PETG.3mf` | **Poprawiony.** 1 z 196 otworów był od spodu poszerzony (ścianka 0,7 mm, Bambu Studio chciało tam podporę). Teraz 196 równych otworów 9,0 mm, 0 podpór |
 | 02 | [1782552 Large massive screwdriver holder](https://www.printables.com/model/1782552) — Jirka | CC0 | `poprawiony/…_X2D_PETG.3mf` | **Poprawiony.** 21 otworów przy krawędzi było przyciętych (3,9–7,5 mm zamiast 8,0). Teraz 205 pełnych otworów |
 | 03 | [41393 IKEA Skadis screwdriver holder](https://www.printables.com/model/41393) — Pavel | CC BY | `z_bryly_FreeCAD/…_X2D_PETG.3mf` + hak | **Bez zmian kształtu.** Eksport z dokładnej bryły FreeCAD autora. Drukować bez podpór |
-| 04 | [123412 Wera Screwdriver Holder](https://www.printables.com/model/123412) — ksuszka | CC BY | `poprawiony/` (140 uchwytów) + szyna z `oryginal/` | **Poprawiony.** Zatrzask pękał przy wpinaniu (≥3 zgłoszenia). Szczelina odciążająca zmniejsza odkształcenie z ok. 6,4% do ok. 1,5% |
+| 04 | [123412 Wera Screwdriver Holder](https://www.printables.com/model/123412) — ksuszka | CC BY | `poprawiony/` (140 uchwytów) + `poprawiony/szyny/` (12 szyn, wypełnienie 100%; szyna na magnesy wycofana) | **Poprawiony.** Zatrzask pękał przy wpinaniu (≥3 zgłoszenia). Szczelina odciążająca zmniejsza odkształcenie z ok. 6,4% do ok. 1,5% |
 
 Podgląd 3D z wkrętakami osadzonymi w uchwytach: `podglad-3d.html` (otwórz w przeglądarce, potrzebny internet do three.js) albo artefakt https://claude.ai/artifact/GQUG9JMqrCRWQgWFQkN6tg.
 
