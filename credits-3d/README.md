@@ -28,6 +28,7 @@ Data: 2026-11-04. Drukarka docelowa: Bambu Lab X2D, dysza 0,4, PETG. Licencje i 
 - Testy kontrolne w każdym pliku: bit o 0,2 mm większy od gniazda musi zostać wykryty (2D), bit wciśnięty 1 mm za osadzenie musi dać kolizję (3D). Oba wykryte we wszystkich plikach.
 - Slicer: PrusaSlicer 2.7.2 jako zastępca Bambu Studio (komenda ze skilla, stół 256×256), zliczanie `;TYPE:Support material`.
 - Skrypty i surowe wyniki: `narzedzia/`.
+- Podgląd 3D z bitami w gniazdach: `podglad-3d.html` (otwórz w przeglądarce, potrzebny internet do three.js) albo artefakt https://claude.ai/artifact/ExojbNBGfsdRknsn7V3KSo.
 
 ## Czego nie zrobiłem (i dlaczego)
 1. Nie zapisałem na pulpit: ta sesja działa w chmurze i nie ma dostępu do Twojego komputera. Folder jest w repo, gałąź `claude/blissful-edison-wf7mwj`.
