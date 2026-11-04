@@ -1,0 +1,465 @@
+{
+ "file": "fix/3x7_hex_bit_holder_angled_repaired.stl",
+ "axis": [
+  0.0,
+  0.7071,
+  0.7071
+ ],
+ "tilt_deg": 45.0,
+ "wall_stop": false,
+ "pockets": 21,
+ "grid": {
+  "s": [
+   6.292,
+   6.311,
+   6.33,
+   6.35
+  ],
+  "e": [
+   7.11,
+   7.145,
+   7.18
+  ],
+  "note": "s grid 0.019 mm incl. both ISO 1173 limits; e grid 0.035 mm incl. both limits"
+ },
+ "pocket_flats": [
+  6.706
+ ],
+ "pocket_corners": [
+  7.743,
+  7.744
+ ],
+ "radial_interference_pockets": 0,
+ "min_gap_required": 0.1,
+ "below_min_gap_pockets": 0,
+ "min_gap_per_side_range": [
+  0.177,
+  0.178
+ ],
+ "sections_per_pocket": [
+  22,
+  23
+ ],
+ "below_min_gap_detail": [],
+ "insertion_blocked": 0.0,
+ "seat_above_floor_range": [
+  0.83,
+  1.28
+ ],
+ "depth_in_pocket_range": [
+  12.06,
+  12.25
+ ],
+ "protrusion_25mm_range": [
+  12.75,
+  12.94
+ ],
+ "long_bits_colliding": {
+  "50.0": 0,
+  "70.0": 0,
+  "90.0": 0
+ },
+ "control_2d_oversize_flagged": true,
+ "control_3d_past_seat_flagged": true,
+ "per_pocket": [
+  {
+   "pocket": [
+    117.70833462108149,
+    -128.00199890136722
+   ],
+   "t_floor": 121.1988941824812,
+   "rim_low": 134.27549489338753,
+   "rim_high": 134.27742006073038,
+   "seat": 122.02769199617057,
+   "seat_above_floor": 0.83,
+   "blocked": 0.0,
+   "protrusion_25": 12.75,
+   "depth_in_pocket": 12.25,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    117.70833462148089,
+    -117.33399963378908
+   ],
+   "t_floor": 121.19889418248125,
+   "rim_low": 134.27545034073546,
+   "rim_high": 134.27742006073058,
+   "seat": 122.02769199617057,
+   "seat_above_floor": 0.83,
+   "blocked": 0.0,
+   "protrusion_25": 12.75,
+   "depth_in_pocket": 12.25,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    117.70833443558895,
+    -138.66600036621094
+   ],
+   "t_floor": 121.19889418244951,
+   "rim_low": 134.27545034169282,
+   "rim_high": 134.2774200606296,
+   "seat": 122.02769199617057,
+   "seat_above_floor": 0.83,
+   "blocked": 0.0,
+   "protrusion_25": 12.75,
+   "depth_in_pocket": 12.25,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    107.15029403910326,
+    -117.33399963378908
+   ],
+   "t_floor": 110.24742719099565,
+   "rim_low": 123.71361427126672,
+   "rim_high": 123.71525098780972,
+   "seat": 111.52769199617057,
+   "seat_above_floor": 1.28,
+   "blocked": 0.0,
+   "protrusion_25": 12.81,
+   "depth_in_pocket": 12.19,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    107.1502930973107,
+    -128.00200036712775
+   ],
+   "t_floor": 110.2474271908396,
+   "rim_low": 123.71323672897991,
+   "rim_high": 123.71525098785867,
+   "seat": 111.52769199617057,
+   "seat_above_floor": 1.28,
+   "blocked": 0.0,
+   "protrusion_25": 12.81,
+   "depth_in_pocket": 12.19,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    107.15029403895572,
+    -138.666000366211
+   ],
+   "t_floor": 110.24742719099791,
+   "rim_low": 123.71361427157099,
+   "rim_high": 123.71525098780974,
+   "seat": 111.52769199617057,
+   "seat_above_floor": 1.28,
+   "blocked": 0.0,
+   "protrusion_25": 12.81,
+   "depth_in_pocket": 12.19,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    96.59392112451093,
+    -128.00200048735397
+   ],
+   "t_floor": 100.02614310983843,
+   "rim_low": 113.15162592757174,
+   "rim_high": 113.15275059356232,
+   "seat": 101.02769199617057,
+   "seat_above_floor": 1.0,
+   "blocked": 0.0,
+   "protrusion_25": 12.87,
+   "depth_in_pocket": 12.12,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    96.59392112432772,
+    -138.66600036621097
+   ],
+   "t_floor": 100.02614310510262,
+   "rim_low": 113.15162355528484,
+   "rim_high": 113.15272122691684,
+   "seat": 101.02769199617057,
+   "seat_above_floor": 1.0,
+   "blocked": 0.0,
+   "protrusion_25": 12.87,
+   "depth_in_pocket": 12.12,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    96.59392112469418,
+    -117.3339996337891
+   ],
+   "t_floor": 100.02614310510272,
+   "rim_low": 113.15162355523478,
+   "rim_high": 113.15272122706672,
+   "seat": 101.02769199617057,
+   "seat_above_floor": 1.0,
+   "blocked": 0.0,
+   "protrusion_25": 12.87,
+   "depth_in_pocket": 12.12,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    86.03750207083272,
+    -117.33399963378913
+   ],
+   "t_floor": 89.3649145698407,
+   "rim_low": 102.58908761792945,
+   "rim_high": 102.59139302777703,
+   "seat": 90.52769199617057,
+   "seat_above_floor": 1.16,
+   "blocked": 0.0,
+   "protrusion_25": 12.94,
+   "depth_in_pocket": 12.06,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    86.0375020664267,
+    -128.00199890392116
+   ],
+   "t_floor": 89.36491456983995,
+   "rim_low": 102.58908932884992,
+   "rim_high": 102.59139302777592,
+   "seat": 90.52769199617057,
+   "seat_above_floor": 1.16,
+   "blocked": 0.0,
+   "protrusion_25": 12.94,
+   "depth_in_pocket": 12.06,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    86.03750207964464,
+    -138.666000366211
+   ],
+   "t_floor": 89.36491456984236,
+   "rim_low": 102.58908761796542,
+   "rim_high": 102.59139302777922,
+   "seat": 90.52769199617057,
+   "seat_above_floor": 1.16,
+   "blocked": 0.0,
+   "protrusion_25": 12.94,
+   "depth_in_pocket": 12.06,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    75.47991957945575,
+    -138.6660003662109
+   ],
+   "t_floor": 78.85329826783608,
+   "rim_low": 92.02739563952458,
+   "rim_high": 92.02889869273443,
+   "seat": 79.77769199617057,
+   "seat_above_floor": 0.92,
+   "blocked": 0.0,
+   "protrusion_25": 12.75,
+   "depth_in_pocket": 12.25,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    75.47991957913153,
+    -117.33399963378912
+   ],
+   "t_floor": 78.85329826783601,
+   "rim_low": 92.0273956377478,
+   "rim_high": 92.02889869305005,
+   "seat": 79.77769199617057,
+   "seat_above_floor": 0.92,
+   "blocked": 0.0,
+   "protrusion_25": 12.75,
+   "depth_in_pocket": 12.25,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    75.47991957929364,
+    -128.0019989423245
+   ],
+   "t_floor": 78.85329826783611,
+   "rim_low": 92.02747999445845,
+   "rim_high": 92.02940938183268,
+   "seat": 79.77769199617057,
+   "seat_above_floor": 0.92,
+   "blocked": 0.0,
+   "protrusion_25": 12.75,
+   "depth_in_pocket": 12.25,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    64.92351002843918,
+    -138.66600036621097
+   ],
+   "t_floor": 68.19247278605738,
+   "rim_low": 81.46489797376519,
+   "rim_high": 81.46644513076404,
+   "seat": 69.27769199617057,
+   "seat_above_floor": 1.09,
+   "blocked": 0.0,
+   "protrusion_25": 12.81,
+   "depth_in_pocket": 12.19,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    64.9235100286432,
+    -117.3339996337891
+   ],
+   "t_floor": 68.19247278605397,
+   "rim_low": 81.4648979726887,
+   "rim_high": 81.46684041052075,
+   "seat": 69.27769199617057,
+   "seat_above_floor": 1.09,
+   "blocked": 0.0,
+   "protrusion_25": 12.81,
+   "depth_in_pocket": 12.19,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    64.92351002854119,
+    -128.00199916094434
+   ],
+   "t_floor": 68.19247278605418,
+   "rim_low": 81.46494872257247,
+   "rim_high": 81.4663429849399,
+   "seat": 69.27769199617057,
+   "seat_above_floor": 1.09,
+   "blocked": 0.0,
+   "protrusion_25": 12.81,
+   "depth_in_pocket": 12.19,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    54.36609469183366,
+    -117.33399963378909
+   ],
+   "t_floor": 57.680556029455815,
+   "rim_low": 70.90311316027588,
+   "rim_high": 70.90470817041644,
+   "seat": 58.777691996170574,
+   "seat_above_floor": 1.1,
+   "blocked": 0.0,
+   "protrusion_25": 12.87,
+   "depth_in_pocket": 12.13,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    54.36609473902959,
+    -128.00199933552648
+   ],
+   "t_floor": 57.68055602946673,
+   "rim_low": 70.90311316028749,
+   "rim_high": 70.90470817041387,
+   "seat": 58.777691996170574,
+   "seat_above_floor": 1.1,
+   "blocked": 0.0,
+   "protrusion_25": 12.87,
+   "depth_in_pocket": 12.13,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  },
+  {
+   "pocket": [
+    54.366094691544255,
+    -138.66600036621097
+   ],
+   "t_floor": 57.680556504492124,
+   "rim_low": 70.90311326576094,
+   "rim_high": 70.90470817041646,
+   "seat": 58.777691996170574,
+   "seat_above_floor": 1.1,
+   "blocked": 0.0,
+   "protrusion_25": 12.87,
+   "depth_in_pocket": 12.13,
+   "long_bit_interference_mm3": {
+    "50.0": 0.0,
+    "70.0": 0.0,
+    "90.0": 0.0
+   }
+  }
+ ]
+}

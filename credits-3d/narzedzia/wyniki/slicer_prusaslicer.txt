@@ -1,0 +1,31 @@
+1770956 support=0 ; filament used [cm3] = 93.05
+Large_bit_holder_(176_pieces) support=155 ; filament used [cm3] = 108.35
+1825701_fixed support=0 ; filament used [cm3] = 110.37
+hex_bit_holder support=0 ; filament used [cm3] = 68.81
+hex_bit_holder_v2 support=0 ; filament used [cm3] = 53.99
+146076_fixed support=0 ; filament used [cm3] = 72.07
+1051202_3x7_hex_bit_holder_angled support=42 ; filament used [cm3] = 22.51
+3x7_hex_bit_holder_angled_repaired support=0 ; filament used [cm3] = 22.49
+1051202_8x4_hex_bit_holder_angled support=0 ; filament used [cm3] = 35.73
+8x4_hex_bit_holder_angled_repaired support=0 ; filament used [cm3] = 35.73
+3x7_hex_bit_holder_angled.stl rc=0 support_blocks=42 interface_blocks=1 | ; filament used [cm3] = 22.51 | ; estimated printing time (normal mode) = 3h 45m 24s
+8x4_hex_bit_holder_angled.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 35.73 | ; estimated printing time (normal mode) = 4h 9m 57s
+Amana_Countersunk_Screw_Bit_Holder.stl rc=0 support_blocks=12 interface_blocks=11 | ; filament used [cm3] = 5.06 | ; estimated printing time (normal mode) = 36m 52s
+BAR_MAGNET_FRAME_60X10.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 1.29 | ; estimated printing time (normal mode) = 7m 6s
+DIVIDERS_1-8.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 32.57 | ; estimated printing time (normal mode) = 5h 50m 31s
+DIVIDERS_AND_COIN_MAGNET_HOLDER.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 23.69 | ; estimated printing time (normal mode) = 4h 6m 9s
+DIVIDER_1.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 1.36 | ; estimated printing time (normal mode) = 15m 8s
+DIVIDER_2.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 2.15 | ; estimated printing time (normal mode) = 23m 25s
+DIVIDER_3.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 2.91 | ; estimated printing time (normal mode) = 31m 20s
+DIVIDER_4.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 3.70 | ; estimated printing time (normal mode) = 39m 46s
+DIVIDER_5.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 4.50 | ; estimated printing time (normal mode) = 47m 50s
+DIVIDER_6.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 5.29 | ; estimated printing time (normal mode) = 55m 53s
+DIVIDER_7.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 5.99 | ; estimated printing time (normal mode) = 1h 4m 14s
+DIVIDER_8.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 6.85 | ; estimated printing time (normal mode) = 1h 12m 18s
+MAGNETIC_BIT_HOLDER.stl rc=0 support_blocks=1 interface_blocks=4 | ; filament used [cm3] = 7.41 | ; estimated printing time (normal mode) = 46m 41s
+RIGHT_ANGLE_ATTACHMENT_HOLDER.stl rc=0 support_blocks=129 interface_blocks=44 | ; filament used [cm3] = 29.09 | ; estimated printing time (normal mode) = 2h 46m 3s
+SELF-CENTERING_BIT_DIVIDER3_COIN_MAGNET.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 7.78 | ; estimated printing time (normal mode) = 49m 16s
+SINGLE_HOLDER_FOR_COIN_MAGNET.stl rc=0 support_blocks=76 interface_blocks=30 | ; filament used [cm3] = 2.16 | ; estimated printing time (normal mode) = 23m 11s
+SMALL_DIVIDER_2_ENLARGED_.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 1.32 | ; estimated printing time (normal mode) = 15m 21s
+screw_head_labels_v2.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 3.09 | ; estimated printing time (normal mode) = 21m 56s
+socket_extension_holder_v2.stl rc=0 support_blocks=0 interface_blocks=0 | ; filament used [cm3] = 5.18 | ; estimated printing time (normal mode) = 33m 52s
