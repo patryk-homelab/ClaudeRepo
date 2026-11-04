@@ -1,5 +1,10 @@
 # Odpowiedzi do grup na Facebooku (wklej tekst + dołącz grafikę Rubikon3D-grafika-FB-1080.png)
 
+## Wersja Patryka (poprawiona: jedna osoba w całym tekście)
+Cześć! Chętnie się tym zajmiemy. Wyślij proszę zdjęcie albo wymiary na pw lub WhatsApp, wycenimy bez zobowiązań:
+wa.me/48609692311
+Tel. 609 692 311 · druk@rubikon3d.com
+
 ## Ze strony Rubikon3D
 ### 1. Ogólna
 Cześć! Możemy to wydrukować w 3D. Napisz do nas wiadomość, najlepiej ze zdjęciem albo wymiarami. Wycena bez zobowiązań.

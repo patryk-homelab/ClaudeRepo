@@ -25,10 +25,14 @@ body{font-family:'Space Grotesk',sans-serif;-webkit-font-smoothing:antialiased}
 .iso{position:absolute;inset:0;width:100%;height:100%}
 .logo{position:absolute;left:84px;top:96px;display:flex;align-items:center;gap:28px}
 .logo .c{height:132px}.logo .w{height:92px}
-.hd{position:absolute;left:84px;right:84px;top:418px}
+.hd{position:absolute;left:84px;right:84px;top:286px}
 .hd h1{font-size:104px;white-space:nowrap;line-height:.98;font-weight:700;letter-spacing:-.025em}
-.hd p{margin-top:40px;font-family:'Space Mono',monospace;font-size:24px;letter-spacing:.14em;opacity:.92}
-.ct{position:absolute;left:84px;right:84px;bottom:96px;border-top:2px solid #ffffff99;padding-top:34px;display:grid;grid-template-columns:auto auto auto;justify-content:space-between;gap:28px}
+.hd p{margin-top:28px;font-size:32px;line-height:1.3}
+.cats{position:absolute;left:84px;right:84px;top:650px;display:grid;grid-template-columns:1fr 1fr;gap:26px 48px}
+.cats div{border-top:2px solid #ffffff80;padding-top:14px}
+.cats span{display:block;font-family:'Space Mono',monospace;font-weight:700;font-size:20px;letter-spacing:.12em}
+.cats b{display:block;margin-top:6px;font-size:29px;font-weight:400}
+.ct{position:absolute;left:84px;right:84px;bottom:84px;border-top:2px solid #ffffffd9;padding-top:30px;display:grid;grid-template-columns:auto auto auto;justify-content:space-between;gap:28px}
 .ct span{display:block;font-family:'Space Mono',monospace;font-size:20px;letter-spacing:.12em;opacity:.8}
 .ct b{display:block;margin-top:10px;font-size:40px;font-weight:700;letter-spacing:-.005em}
 """
@@ -37,7 +41,13 @@ HTML = f"""<!doctype html><html lang=pl><head><meta charset=utf-8><style>{CSS}</
 {GRID}
 <div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div>
 <div class=hd><h1>Masz pomysł?<br>Wydrukujemy to.</h1>
-<p>NA WYMIAR · CZĘŚCI ZAMIENNE · PREZENTY</p></div>
+<p>Na wymiar, od jednej sztuki.<br>Wyślij zdjęcie lub wymiary, wycenimy bez zobowiązań.</p></div>
+<div class=cats>
+ <div><span>NAPRAWA</span><b>klips, pokrętło, zaślepka</b></div>
+ <div><span>WARSZTAT I NARZĘDZIA</span><b>uchwyty, organizery, adaptery</b></div>
+ <div><span>FIRMY</span><b>prototypy, krótkie serie</b></div>
+ <div><span>PREZENTY</span><b>lampka ze zdjęciem, mapa 3D</b></div>
+</div>
 <div class=ct>
  <div><span>FACEBOOK / INSTAGRAM</span><b>Rubikon3D</b></div>
  <div><span>TEL. / WHATSAPP</span><b>609 692 311</b></div>
