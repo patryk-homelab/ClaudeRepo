@@ -3,20 +3,20 @@ Stan na 04.11.2026 wieczorem. Folder: credits-3d (repo ClaudeRepo, gałąź clau
 Paczka do druku (credits-3d.zip): jeden folder na produkt, nazwany kodem z arkusza:
   P071 - Listwa ścienna na bity                      (repo: 01_1770956_bit-holder-organizer_Jirka)
   P072 - Duża listwa ścienna na 320 bitów            (repo: 02_1825701_large-bit-holder_Jirka)
-  P074 - Uchwyt ścienny na bity pod kątem            (repo: 04_146076_hex-bit-holder_GUZ_prints)
-  P075 - Uchwyt ścienny na wkrętaki 220 mm           (repo: wkretaki/01_1808383_...)
-  P076 - Półokrągły uchwyt ścienny na wkrętaki       (repo: wkretaki/02_1782552_...)
-  P077 - Grzebień na wkrętaki do tablicy IKEA SKÅDIS (repo: wkretaki/03_41393_...)
-  P078 - Uchwyt na wkrętak Wera                      (repo: wkretaki/04_123412_...)
-  P079 - Szyna do uchwytów na wkrętaki Wera          (repo: wkretaki/04_123412_.../poprawiony/szyny)
+  P073 - Uchwyt ścienny na bity pod kątem            (repo: 04_146076_hex-bit-holder_GUZ_prints)
+  P074 - Uchwyt ścienny na wkrętaki 220 mm           (repo: wkretaki/01_1808383_...)
+  P075 - Półokrągły uchwyt ścienny na wkrętaki       (repo: wkretaki/02_1782552_...)
+  P076 - Grzebień na wkrętaki do tablicy IKEA SKÅDIS (repo: wkretaki/03_41393_...)
+  P077 - Uchwyt na wkrętak Wera                      (repo: wkretaki/04_123412_...)
+  P078 - Szyna do uchwytów na wkrętaki Wera          (repo: wkretaki/04_123412_.../poprawiony/szyny)
   narzedzia/bity, narzedzia/wkretaki                 (repo: narzedzia, wkretaki/narzedzia)
 W folderze produktu: projekt(y) Bambu *_X2D_PETG.3mf, podfolder "zapasowa geometria" (sam kształt, bez ustawień)
-i podfolder "skrypty" (poprawki). P071, P077 (hak) i P079 to pliki autorów bez zmian, więc nie mają zapasowej geometrii.
+i podfolder "skrypty" (poprawki). P071, P076 (hak) i P078 to pliki autorów bez zmian, więc nie mają zapasowej geometrii.
 Tylko w repo: pliki autorów, raporty i README, CREDITS.md (teksty licencji), rendery, podglądy 3D,
 wycofane modele. Podglądy 3D są też online: bity https://claude.ai/artifact/ExojbNBGfsdRknsn7V3KSo,
 wkrętaki https://claude.ai/artifact/GQUG9JMqrCRWQgWFQkN6tg
 Ścieżki w tym pliku dotyczą paczki; przy rzeczach "tylko w repo" podana jest ścieżka w repo.
-Arkusz: "Druk 3D - rejestr druku", zakładka Projekty.
+Arkusz: "Druk 3D - rejestr druku", zakładki Projekty, Warianty P077 i Wycofane.
 
 
 =====================================================================
@@ -38,7 +38,7 @@ A2. Co trzeba zbudować
    (do wyceny), krótki opis "pasuje do", zdjęcie (opcjonalnie).
 2. Na stronie produktu: wybór opcji (lista albo przyciski), niedostępne połączenia wyszarzone,
    cena zmienia się po wyborze, na liście produktów "od X zł".
-3. Link do konkretnego wariantu (np. ?wariant=P078-367-TX25), żeby dało się podać go klientowi.
+3. Link do konkretnego wariantu (np. ?wariant=P077-367-TX25), żeby dało się podać go klientowi.
 4. Koszyk: pozycja = SKU + liczba sztuk. Cenę brać z danych po stronie serwera, nie z przeglądarki.
 5. Zamówienia: zapis jak dziś zapytania (baza D1), z powiadomieniem na druk@rubikon3d.com.
 6. Jedna strona na produkt (nie 140 stron) - lepiej dla wyszukiwarek i prościej w utrzymaniu.
@@ -46,28 +46,28 @@ A2. Co trzeba zbudować
 
 A3. Produkty, które od razu potrzebują wariantów
 1. P065 Zakrętka do kartusza: Ilość = 1 szt. 5 zł / 3 szt. 15 zł / 10 szt. 25 zł (ceny z arkusza).
-2. P078 Uchwyt na wkrętak Wera (1 szt.): grupy "Seria" (np. 350 PH, 355 PZ, 367 Torx...) i "Rozmiar".
+2. P077 Uchwyt na wkrętak Wera (1 szt.): grupy "Seria" (np. 350 PH, 355 PZ, 367 Torx...) i "Rozmiar".
    - Pełna lista 140 wariantów z kodami SKU, gramami i czasem: arkusz "Druk 3D - rejestr druku",
-     zakładka "Warianty P078".
+     zakładka "Warianty P077".
    - Na start pokazać jako "od ręki" tylko 31 modeli przetestowanych przez autora (kolumna "Na start" = tak).
      Resztę jako "na zamówienie" (nikt ich nie sprawdził na prawdziwym wkrętaku).
    - Jedna cena za sztukę: wszystkie ważą 12,9-15,0 g i drukują się 0,89-0,94 h.
    - Opcjonalnie: przekładki 1-5 mm (pliki autora, tylko w repo: wkretaki/04_.../oryginal/) jako gratis
      albo dodatek. Projektów Bambu dla nich jeszcze nie ma.
-3. P079 Szyna do uchwytów Wera: grupy "Mocowanie" i "Długość". 12 wariantów
+3. P078 Szyna do uchwytów Wera: grupy "Mocowanie" i "Długość". 12 wariantów
    (wypełnienie 100%, Bambu X2D, czas i gramy z ustawień projektu):
-     P079-PM-082   ściana plaster miodu 81,76 mm          7,48 g  0,21 h
-     P079-PM-123   ściana plaster miodu 122,64 mm        11,17 g  0,30 h
-     P079-PM-164   ściana plaster miodu 163,52 mm        14,86 g  0,39 h
-     P079-PM-245   ściana plaster miodu 245,28 mm        22,26 g  0,59 h
-     P079-W50-200  na wkręty, otwory co 50 mm, 200 mm    18,28 g  0,47 h
-     P079-W40-240  na wkręty, otwory co 40 mm, 240 mm    21,75 g  0,57 h
-     P079-W50-250  na wkręty, otwory co 50 mm, 250 mm    22,83 g  0,59 h
-     P079-W45-270  na wkręty, otwory co 45 mm, 270 mm    24,13 g  0,57 h
-     P079-SK-240   IKEA SKÅDIS 240 mm                    25,88 g  0,76 h  (podpory pod hakami)
-     P079-C1-8IN   8", otwory co 1"                      18,04 g  0,51 h
-     P079-TC-8IN   tablica calowa cienka, 8"             19,50 g  0,59 h
-     P079-TC-2IN   tablica calowa cienka, 2"              4,94 g  0,24 h
+     P078-PM-082   ściana plaster miodu 81,76 mm          7,48 g  0,21 h
+     P078-PM-123   ściana plaster miodu 122,64 mm        11,17 g  0,30 h
+     P078-PM-164   ściana plaster miodu 163,52 mm        14,86 g  0,39 h
+     P078-PM-245   ściana plaster miodu 245,28 mm        22,26 g  0,59 h
+     P078-W50-200  na wkręty, otwory co 50 mm, 200 mm    18,28 g  0,47 h
+     P078-W40-240  na wkręty, otwory co 40 mm, 240 mm    21,75 g  0,57 h
+     P078-W50-250  na wkręty, otwory co 50 mm, 250 mm    22,83 g  0,59 h
+     P078-W45-270  na wkręty, otwory co 45 mm, 270 mm    24,13 g  0,57 h
+     P078-SK-240   IKEA SKÅDIS 240 mm                    25,88 g  0,76 h  (podpory pod hakami)
+     P078-C1-8IN   8", otwory co 1"                      18,04 g  0,51 h
+     P078-TC-8IN   tablica calowa cienka, 8"             19,50 g  0,59 h
+     P078-TC-2IN   tablica calowa cienka, 2"              4,94 g  0,24 h
    Kody SKU szyn to propozycja - można zmienić.
 4. Później ewentualnie zestaw "szyna + N uchwytów" z rabatem.
 
@@ -79,7 +79,7 @@ A4. Allegro i Etsy
 - Opis: "Wera" i "IKEA SKÅDIS" tylko jako "pasuje do", z zastrzeżeniem o znakach towarowych.
   Licencja CC BY: w opisie autor (ksuszka), nazwa projektu, link, licencja.
 
-A5. Do instrukcji dla klienta (P078/P079)
+A5. Do instrukcji dla klienta (P077/P078)
 - Montaż uchwytu: najpierw zahaczyć górny haczyk o szynę, trzymając uchwyt pochylony, potem docisnąć dół.
   Nie wciskać prosto.
 - Uchwyty można przesuwać i zdejmować bez narzędzi.
@@ -92,30 +92,30 @@ B. PLIKI: PO PODŁĄCZENIU SLICERA / SESJI NA MINIPC
 B1. Projekty Bambu robiłem w chmurze, w Bambu Studio 2.8.2 bez okna (tryb wiersza poleceń).
 1. Otworzyć każdy *_X2D_PETG.3mf w Bambu Studio z ekranem (MacBook): czy się otwiera, czy są profile
    X2D 0.4 / 0.20mm Standard / Bambu PETG Basic / Textured PEI. Zapisać ponownie z aplikacji.
-   Lista: bity P071, P072, P074 (3 pliki); wkrętaki P075, P076 (2), P077 (grzebień mały, duży, hak),
-   P078 (140 uchwytów), P079 (12 szyn).
+   Lista: bity P071, P072, P073 (3 pliki); wkrętaki P074, P075 (2), P076 (grzebień mały, duży, hak),
+   P077 (140 uchwytów), P078 (12 szyn).
    Jeśli projekt się nie otworzy: dla poprawionych modeli jest sam kształt w podfolderze "zapasowa geometria".
-   P071, hak z P077 i szyny P079 to pliki autorów bez zmian - ich kształt jest tylko w repo (folder oryginal)
+   P071, hak z P076 i szyny P078 to pliki autorów bez zmian - ich kształt jest tylko w repo (folder oryginal)
    albo na Printables.
    Skrypty poprawek też potrzebują plików autorów jako wejścia (repo albo Printables).
-2. P078: 10 uchwytów dostaje dodatkową podporę od stołu przy dolnej krawędzi, do ok. 39 mm
+2. P077: 10 uchwytów dostaje dodatkową podporę od stołu przy dolnej krawędzi, do ok. 39 mm
    (180-197 fragmentów zamiast 19): 334 płaski 5, 335 płaski 4 i 5,5, 350 PH1, 352 imbus 1,5/2/4,
    355 PZ1, 367 TX15, 367 TX20. Tak samo w oryginałach autora (sprawdzone na 2 z 10). Obejrzeć w Bambu
    z ekranem, czy podpora nie zostawi brzydkiego śladu. W razie potrzeby wygenerować te uchwyty od nowa
-   z wera_screwdriver_holder_v3_snapfix.scad (folder "P078 - Uchwyt na wkrętak Wera/skrypty";
+   z wera_screwdriver_holder_v3_snapfix.scad (folder "P077 - Uchwyt na wkrętak Wera/skrypty";
    czcionki Bahnschrift i Arial muszą być zainstalowane).
-3. P078: 5 par duplikatów w plikach autora (160i płaski 2,5 i 3,5; 917 PH3; 932A płaski 9 i 10 -
+3. P077: 5 par duplikatów w plikach autora (160i płaski 2,5 i 3,5; 917 PH3; 932A płaski 9 i 10 -
    każdy w wersji zwykłej i "v2"). Przed wystawieniem wybrać jeden plik z każdej pary
-   (kolumna "Duplikat" w zakładce "Warianty P078").
-4. P078: 352 imbus 1,5 i 2 mają gniazdo rękojeści ok. 1 mm ciaśniejsze niż nowsze pliki - jeśli będą
+   (kolumna "Duplikat" w zakładce "Warianty P077").
+4. P077: 352 imbus 1,5 i 2 mają gniazdo rękojeści ok. 1 mm ciaśniejsze niż nowsze pliki - jeśli będą
    w ofercie, wygenerować z v3_snapfix.scad.
 
 B2. Kalibracja i biblioteka (build123d-mcp na MiniPC)
 1. Odczytać printer.json i devices.json (/home/patryk/docker/build123d-mcp/data/library/).
 2. Jeśli printer.json nie ma luzów z X2D: wydrukować test luzów (skill projekt-3d-druk) i zapisać wynik.
 3. Porównać założony luz (0,10 mm/stronę) z prawdziwym i sprawdzić pasowania:
-   P071 0,12 mm; P072 0,15 mm; P074 0,25 mm (bity); P075 0,5 mm przy trzonku 8 mm; P076 1,0-2,5 mm;
-   P077 hak 0,15 mm w otworze SKÅDIS; P078 ugięcie zatrzasku 0,7 mm, trzonki 0,25-1,00 mm.
+   P071 0,12 mm; P072 0,15 mm; P073 0,25 mm (bity); P074 0,5 mm przy trzonku 8 mm; P075 1,0-2,5 mm;
+   P076 hak 0,15 mm w otworze SKÅDIS; P077 ugięcie zatrzasku 0,7 mm, trzonki 0,25-1,00 mm.
 4. Dopisać do devices.json (z kopią przed zmianą): ISO 1173:2001 (bit 1/4"), ISO 8764-1 (trzonki PH/PZ),
    wymiary Wera/Wiha/Felo, SKÅDIS (otwór 5 x 15, raster 40/20, płyta 5,0-5,1 mm),
    łby wkrętów (DIN 7997: 3,5 mm = 6,5; 4 mm = 7,5; 4,5 mm = 8,3 mm). Źródła: kolumna "Źródło wymiarów"
@@ -131,22 +131,23 @@ B3. Pliki na dysku wg Twojej konwencji (jak P061-P065)
    Skrypty: PLIKI/SKRYPTY PY; oryginały autorów: PLIKI/PROJEKTY/P0xx - Nazwa/
 2. Potem uzupełnić w arkuszu kolumnę "Plik projektu" (dziś celowo pusta).
 3. Instrukcje druku, instrukcje dla klienta i opisy ofert (INSTRUKCJE/DRUK, INSTRUKCJE/KLIENT,
-   OPISY OFERT) dla P071, P072, P074-P079 - tak jak przy P061-P065.
+   OPISY OFERT) dla P071, P072, P073-P078 - tak jak przy P061-P065.
 
 
 =====================================================================
 C. ARKUSZ - CO JESZCZE PUSTE
 =====================================================================
-1. Kolor (K) i karton (U) dla P071, P072, P074-P079: bez kartonu arkusz nie liczy kosztu łącznego.
+1. Kolor (K) i karton (U) dla P071, P072, P073-P078: bez kartonu arkusz nie liczy kosztu łącznego.
 2. Cena sprzedaży (Q) dla tych produktów.
-3. P078: w kolumnach czas/gramy jest mediana 31 modeli na start (0,92 h, 13,77 g); P079: wariant
-   200 mm na wkręty (0,47 h, 18,28 g). Pełne liczby dla wariantów: zakładka "Warianty P078" i tabela A3 (P079).
+3. P077: w kolumnach czas/gramy jest mediana 31 modeli na start (0,92 h, 13,77 g); P078: wariant
+   200 mm na wkręty (0,47 h, 18,28 g). Pełne liczby dla wariantów: zakładka "Warianty P077" i tabela A3 (P078).
 
 
 =====================================================================
 D. WYCOFANE (04.11.2026, decyzja Patryka: bez magnesów)
 =====================================================================
-1. P073 (1051202 Ultimate Bit Holder) - cały system wycofany, status "Wycofany".
+1. 1051202 Ultimate Bit Holder (dawny P073) - cały system wycofany, wiersz przeniesiony do zakładki "Wycofane".
+   Dawne kody P074-P079 przesunięte o jeden w dół (teraz P073-P078), żeby nie było przerwy.
 2. Szyna Wera na magnesy 10 x 3 mm - wycofana.
 3. P058 - wariant z magnesem wycofany (zostaje "na pasek").
 4. Pliki: credits-3d/_wycofane_magnesy_2026-11-04/ - tylko w repo, nie w paczce (nic nie skasowane).
@@ -158,9 +159,9 @@ E. PIERWSZE WYDRUKI - CO ZMIERZYĆ SUWMIARKĄ
 =====================================================================
 P071: gniazdo 6,60 mm, głębokość 9,0 mm, otwory na wkręty 4,5 mm.
 P072: gniazdo 6,65 mm (przedni i środkowy rząd), głębokość 10,0 mm, otwór na wkręt 4,2 mm.
-P074: rurka 6,84 mm, otwór w uchu 4,5 mm, stożek 9,5 mm, grubość ucha 5,0 mm.
-P075: otwór 9,0 mm w środku i przy krawędzi, otwory na wkręty w uszach.
-P076: otwór 8,0 mm (też jeden z dawniej przyciętych przy łuku), ścianka 1,47 mm w tym miejscu.
-P077: zaczep haka 5,2-5,35 mm, grubość Twojej płyty SKÅDIS, szczeliny 7,5 / 10 mm.
-P078: wpięcie na szynę bez trzasku, szczelina 1,0 mm nie zarosła, gniazdo trzonka vs wkrętak.
-P079: wpięcie uchwytu P078; SKÅDIS - pasowanie haków.
+P073: rurka 6,84 mm, otwór w uchu 4,5 mm, stożek 9,5 mm, grubość ucha 5,0 mm.
+P074: otwór 9,0 mm w środku i przy krawędzi, otwory na wkręty w uszach.
+P075: otwór 8,0 mm (też jeden z dawniej przyciętych przy łuku), ścianka 1,47 mm w tym miejscu.
+P076: zaczep haka 5,2-5,35 mm, grubość Twojej płyty SKÅDIS, szczeliny 7,5 / 10 mm.
+P077: wpięcie na szynę bez trzasku, szczelina 1,0 mm nie zarosła, gniazdo trzonka vs wkrętak.
+P078: wpięcie uchwytu P077; SKÅDIS - pasowanie haków.

@@ -1,3 +1,4 @@
+# Uwaga: tagi niżej używają kodów sprzed przenumerowania 04.11.2026 wieczorem (P073 = 1051202, wycofany; P074-P079 to dziś P073-P078).
 placed [[87.89, 32.42, 0.0], [168.11, 223.58, 38.33]]
 final_P071_1770956 rc=0 result='Success.' support_features=0 overhang_wall=0 bridge=59 | ; total filament weight [g] : 89.36 | time 3.27 h
 placed [[15.0, 79.0, 0.0], [241.0, 177.0, 42.0]]

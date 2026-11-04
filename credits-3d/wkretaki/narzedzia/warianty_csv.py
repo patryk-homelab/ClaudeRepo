@@ -1,4 +1,4 @@
-"""Variant table for P078 (one Wera/Holex holder per row): names, author test status, catalogue check, Bambu X2D grams/time.
+"""Variant table for P077 (one Wera/Holex holder per row): names, author test status, catalogue check, Bambu X2D grams/time.
 usage: make_csv.py RESULTS.txt WERA_COMPARE.json OUT.csv"""
 import sys, re, json, csv, collections
 res, cmpf, out = sys.argv[1:4]
@@ -62,7 +62,7 @@ for stem in sorted(slices) + [s for s in cmp if s not in slices]:
     status = 'przetestowany przez autora' if tested and not hole and not ('PZ/S' in typ) else ('nieprzetestowany (wymiary z katalogu Wera)' if untested and not hole else 'nie ma na liście autora')
     if hole: status = 'wariant: otwór rękojeści ' + hole + ' (nie ma na liście autora)'
     code = {'flat': 'FL', 'hex': 'HEX', 'nasadka': 'NUT', 'square': 'SQ', 'szydło': 'AWL', 'rozwiertak': 'REAMER', 'PZ/S': 'PZS'}.get(typ, typ)
-    sku = 'P078-' + ('HOLEX-' if prod == 'Holex' else series.upper().replace('/', '-') + '-') + (code + size.replace('#', '')).upper().replace(' ', '') \
+    sku = 'P077-' + ('HOLEX-' if prod == 'Holex' else series.upper().replace('/', '-') + '-') + (code + size.replace('#', '')).upper().replace(' ', '') \
           + ('-' + hole.split()[0] if hole else '') + ('-V2' if v2 else '')
     sku = sku.rstrip('-')
     sl = slices.get(stem, {})

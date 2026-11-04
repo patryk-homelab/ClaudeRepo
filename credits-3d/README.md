@@ -13,13 +13,13 @@ Data: 2026-11-04. Drukarka docelowa: Bambu Lab X2D, dysza 0,4, PETG. Licencje i 
 | 03 | [1051202 Ultimate Bit Holder](https://www.printables.com/model/1051202) — Carlos Gonzalez | CC BY | — | **Wycofany 04.11.2026 (cały system na magnesy, decyzja Patryka).** Pliki w `_wycofane_magnesy_2026-11-04/` |
 | 04 | [146076 Hex Bit Holder](https://www.printables.com/model/146076) — GUZ_prints | CC0 | `poprawiony/hex_bit_holder_v1_mounting_ears_X2D_PETG.3mf` | Poprawiony: dodane 2 uszy na wkręty 4 mm (stożek Ø9,5). **Plik z 04.11 rano miał 2 zerowe trójkąty i otwierał się w Bambu dziurawy — zastąpiony.** 144 rurki, luz 0,25 mm |
 
-Kody w arkuszu „Druk 3D – rejestr druku”: 01 = P071, 02 = P072, 03 = P073 (status „Wycofany”), 04 = P074.
+Kody w arkuszu „Druk 3D – rejestr druku”: 01 = P071, 02 = P072, 04 = P073. 03 (1051202) jest wycofany i przeniesiony do zakładki „Wycofane” (dawny kod P073; kody przenumerowane 04.11.2026 wieczorem, żeby nie było przerwy).
 
 ## Wycofane: wszystkie systemy i części na magnesy (04.11.2026 wieczorem, decyzja Patryka)
 Przeniesione do `_wycofane_magnesy_2026-11-04/` z tymi samymi ścieżkami (nic nie skasowane; ostateczne usunięcie zostaje Tobie):
-- **cały 1051202 (P073)**: autor zaprojektował go pod magnesy i obrotową podstawę („optimized to work with magnets”). Gniazda albo ramki na magnesy mają: ramki magnesu sztabkowego, SELF-CENTERING…COIN_MAGNET, SINGLE_HOLDER_FOR_COIN_MAGNET = Bore_Bit_Holder, MAGNETIC_BIT_HOLDER = HEX_BIT_Extension_HOLDERs_v3, socket_extension_holder, DIVIDERS_AND_COIN_MAGNET_HOLDER, Amana i DeWalt (po 2 gniazda Ø6,1–6,2 mm). Reszta systemu (3x7, 8x4, przegródki, etykiety) też wycofana, bo bez magnesów i podstawy to tylko proste stojaki na bity, a P071, P072 i P074 są lepsze.
+- **cały 1051202 (dawny P073)**: autor zaprojektował go pod magnesy i obrotową podstawę („optimized to work with magnets”). Gniazda albo ramki na magnesy mają: ramki magnesu sztabkowego, SELF-CENTERING…COIN_MAGNET, SINGLE_HOLDER_FOR_COIN_MAGNET = Bore_Bit_Holder, MAGNETIC_BIT_HOLDER = HEX_BIT_Extension_HOLDERs_v3, socket_extension_holder, DIVIDERS_AND_COIN_MAGNET_HOLDER, Amana i DeWalt (po 2 gniazda Ø6,1–6,2 mm). Reszta systemu (3x7, 8x4, przegródki, etykiety) też wycofana, bo bez magnesów i podstawy to tylko proste stojaki na bity, a P071, P072 i P073 są lepsze.
 - 123412 (wkrętaki Wera): szyna `rail_200mm_magnets_10x3mm` i jej projekt.
-- W arkuszu: P073 „Wycofany”, P058 bez wariantu z magnesem.
+- W arkuszu: 1051202 przeniesiony do zakładki „Wycofane” (dawny kod P073), P058 bez wariantu z magnesem.
 
 ## Co zrobiłem 04.11 po południu (ten sam poziom co przy wkrętakach)
 1. **Bambu Studio 2.8.2 z profilem X2D** zamiast PrusaSlicera: każda część pocięta z podporami auto (drzewiaste, próg 30°), oryginały też (przed/po). Czasy i gramy z ustawieniami zapisanymi w projekcie.
@@ -60,10 +60,10 @@ Bambu Studio 2.8.2, `Bambu Lab X2D 0.4 nozzle`, `0.20mm Standard @BBL X2D`, `Bam
 |---|---|---|---|---|
 | 01 (P071) | oryginał | 0 | 89,36 g | 3,27 h |
 | 02 (P072) | poprawiony | 0 → 0 (PrusaSlicer: 155 → 0) | 115,84 g | 5,71 h |
-| 03 (P073, wycofany) | 3x7 / 8x4 naprawione | 0 → 0 (PrusaSlicer 3x7: 42 → 0) | 22,35 g / 36,90 g | 1,11 h / 1,31 h |
-| 03 (P073, wycofany) | RIGHT_ANGLE / Dewalt 90° | 340 → 0 (ułożenie z 3MF autora) | 11,57 g | 0,50 h |
-| 03 (P073, wycofany) | MAGNETIC_BIT_HOLDER | 7 → 0 (obie części na stole) | 6,88 g | 0,27 h |
-| 04 (P074) | z uszami | 0 → 0 | 83,50 g | 4,07 h |
+| 03 (dawny P073, wycofany) | 3x7 / 8x4 naprawione | 0 → 0 (PrusaSlicer 3x7: 42 → 0) | 22,35 g / 36,90 g | 1,11 h / 1,31 h |
+| 03 (dawny P073, wycofany) | RIGHT_ANGLE / Dewalt 90° | 340 → 0 (ułożenie z 3MF autora) | 11,57 g | 0,50 h |
+| 03 (dawny P073, wycofany) | MAGNETIC_BIT_HOLDER | 7 → 0 (obie części na stole) | 6,88 g | 0,27 h |
+| 04 (P073) | z uszami | 0 → 0 | 83,50 g | 4,07 h |
 
 ## Czego nie zrobiłem (i dlaczego)
 1. Nie zapisałem na pulpit: ta sesja działa w chmurze i nie ma dostępu do Twojego komputera. Folder jest w repo, gałąź `claude/blissful-edison-wf7mwj`.
