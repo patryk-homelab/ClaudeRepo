@@ -130,6 +130,73 @@ C_BODY = f"""
 </div>
 """
 
-for name, css, body in [("A-paczka", A_CSS, A_BODY), ("B-uslugi", B_CSS, B_BODY), ("C-czesci", C_CSS, C_BODY)]:
+# ---------- B2: treść B w układzie A (czerwona góra, biały dół, bez czarnej stopki) ----------
+B2_CSS = A_CSS + """
+.top{height:70mm}
+.thx{top:33mm}
+.thx h1{font-size:24pt}
+.steps{position:absolute;left:11mm;right:11mm;top:76.5mm;display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.st .n{width:6.4mm;height:6.4mm;border-radius:50%;background:var(--red);color:#fff;font-family:'Space Mono',monospace;font-weight:700;font-size:8.4pt;display:flex;align-items:center;justify-content:center}
+.st b{display:block;margin-top:1.6mm;font-size:8.4pt;line-height:1.15}
+.st span{display:block;margin-top:.7mm;font-size:6.9pt;line-height:1.3;opacity:.8}
+.tags{position:absolute;left:11mm;right:11mm;top:100mm;display:flex;flex-wrap:wrap;gap:1.3mm}
+.tags i{font-style:normal;font-size:7pt;background:var(--pink);color:#8c0d21;padding:.8mm 2.1mm;border-radius:5mm;font-weight:500}
+.bot{top:117mm}
+.bot .en{margin-top:1.2mm;font-size:6.4pt;opacity:.65}
+"""
+B2_BODY = f"""
+<div class=top>{ISO.format(id='b2', c='#ffffff33')}
+ <div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div>
+ <div class=thx><h1>Masz pomysł?<br>Wydrukujemy to.</h1>
+ <p>Projektujemy i drukujemy w 3D rzeczy, których nie kupisz w sklepie: na wymiar, w jednym egzemplarzu albo w serii.</p></div>
+</div>
+<div class=steps>
+ <div class=st><div class=n>1</div><b>Wyślij zdjęcie lub wymiary</b><span>WhatsApp albo e-mail, wystarczy szkic.</span></div>
+ <div class=st><div class=n>2</div><b>Dostajesz projekt i wycenę</b><span>Bez zobowiązań.</span></div>
+ <div class=st><div class=n>3</div><b>Drukujemy i wysyłamy</b><span>Gotowe do użycia.</span></div>
+</div>
+<div class=tags><i>uchwyty i organizery</i><i>części zamienne</i><i>akcesoria do auta</i><i>prezenty z personalizacją</i><i>prototypy</i><i>do domu i warsztatu</i></div>
+<div class=bot><div class=qr>{qr('b')}</div>
+ <div><h2>Napisz, wycenimy<br>bez zobowiązań.</h2>
+ <div class=wa>Zeskanuj i napisz na WhatsApp</div>
+ <div class=contact><b>+48 609 692 311</b><br>rubikon3d.com · druk@rubikon3d.com<br>FB / IG: <b>Rubikon3D</b></div>
+ <div class=en>We also speak English!</div></div>
+</div>
+"""
+
+# ---------- D: uniwersalna w stylu C (szerszy zakres pomysłów) ----------
+D_CSS = C_CSS + """
+.big{top:-25mm;height:70mm;right:-15mm}
+.hd{top:47mm}
+.hd h1{font-size:29pt}
+.hd p{margin-top:2.8mm;font-size:9.4pt}
+.cats{position:absolute;left:11mm;right:11mm;top:83mm;color:#fff;display:grid;grid-template-columns:max-content 1fr;column-gap:3.5mm;row-gap:1.15mm;font-size:7.6pt;line-height:1.25}
+.cats dt{font-family:'Space Mono',monospace;font-weight:700;font-size:6.8pt;letter-spacing:.1em;padding-top:.25mm}
+.cats dd{opacity:.95}
+.card{height:36mm}
+.card .qr{width:26mm;height:26mm}
+"""
+D_BODY = f"""
+<div class=bg></div>{ISO.format(id='d', c='#ffffff2e')}
+<img class=big src="assets/cube.svg">
+<img class=brand src="assets/wordmark.svg">
+<div class=hd><h1>Nie ma w sklepie?<br>Wydrukujemy to.</h1>
+ <p>Ty masz pomysł, my projektujemy i drukujemy w 3D. Na wymiar, od jednej sztuki.</p></div>
+<dl class=cats>
+ <dt>NAPRAWA</dt><dd>klips, pokrętło, zaślepka, nóżka</dd>
+ <dt>DOM</dt><dd>uchwyt, organizer, haczyk, stojak</dd>
+ <dt>AUTO</dt><dd>uchwyt na telefon, klips, osłona</dd>
+ <dt>PREZENTY</dt><dd>brelok z imieniem, figurka, tabliczka</dd>
+ <dt>FIRMY</dt><dd>prototyp, krótka seria, gadżet z logo</dd>
+</dl>
+<div class=card><div class=qr>{qr('d')}</div>
+ <div><h2>Wyślij zdjęcie,<br>szkic albo wymiary</h2>
+ <div class=wa>Zeskanuj i napisz na WhatsApp</div>
+ <div class=contact><b>+48 609 692 311</b><br>rubikon3d.com<br>FB / IG: <b>Rubikon3D</b></div></div>
+</div>
+"""
+
+for name, css, body in [("A-paczka", A_CSS, A_BODY), ("B-uslugi", B_CSS, B_BODY), ("C-czesci", C_CSS, C_BODY),
+                        ("B2-uslugi-czerwona", B2_CSS, B2_BODY), ("D-pomysly", D_CSS, D_BODY)]:
     (B / f"{name}.html").write_text(page(body, css))
 print("ok")

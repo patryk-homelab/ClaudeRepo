@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 const path = require('path');
 const dir = __dirname;
 const out = process.argv[2];
-const names = ['A-paczka', 'B-uslugi', 'C-czesci'];
+const names = process.argv.length > 3 ? process.argv.slice(3) : ['A-paczka', 'B-uslugi', 'C-czesci', 'B2-uslugi-czerwona', 'D-pomysly'];
 (async () => {
   const b = await chromium.launch();
   for (const n of names) {
