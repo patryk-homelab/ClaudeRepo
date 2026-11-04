@@ -1,0 +1,1682 @@
+[
+[
+"screwdriver_holder_holex_62_2200_nut_10.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_10.stl",
+"width_x": 44.0,
+"shaft_z-11": 6.5,
+"ferrule_z0": 13.5,
+"handle_z7": 26.65,
+"handle_z9": 26.94
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_11.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_11.stl",
+"width_x": 44.0,
+"shaft_z-11": 8.5,
+"ferrule_z0": 13.5,
+"handle_z7": 29.16,
+"handle_z9": 29.52
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_12.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_12.stl",
+"width_x": 44.0,
+"shaft_z-11": 8.5,
+"ferrule_z0": 13.5,
+"handle_z7": 29.16,
+"handle_z9": 29.52
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_13.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_13.stl",
+"width_x": 44.0,
+"shaft_z-11": 8.5,
+"ferrule_z0": 13.5,
+"handle_z7": 29.16,
+"handle_z9": 29.52
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_4.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_4.stl",
+"width_x": 44.0,
+"shaft_z-11": 5.5,
+"ferrule_z0": 13.5,
+"handle_z7": 21.32,
+"handle_z9": 21.56
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_45.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_45.stl",
+"width_x": 44.0,
+"shaft_z-11": 5.5,
+"ferrule_z0": 13.5,
+"handle_z7": 21.32,
+"handle_z9": 21.56
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_5.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_5.stl",
+"width_x": 44.0,
+"shaft_z-11": 5.5,
+"ferrule_z0": 13.5,
+"handle_z7": 21.32,
+"handle_z9": 21.56
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_55.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_55.stl",
+"width_x": 44.0,
+"shaft_z-11": 5.5,
+"ferrule_z0": 13.5,
+"handle_z7": 21.32,
+"handle_z9": 21.56
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_6.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_6.stl",
+"width_x": 44.0,
+"shaft_z-11": 5.5,
+"ferrule_z0": 13.5,
+"handle_z7": 21.32,
+"handle_z9": 21.56
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_7.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_7.stl",
+"width_x": 44.0,
+"shaft_z-11": 6.5,
+"ferrule_z0": 13.5,
+"handle_z7": 26.65,
+"handle_z9": 26.94
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_8.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_8.stl",
+"width_x": 44.0,
+"shaft_z-11": 6.5,
+"ferrule_z0": 13.5,
+"handle_z7": 26.65,
+"handle_z9": 26.94
+}
+],
+[
+"screwdriver_holder_holex_62_2200_nut_9.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_holex_62_2200_nut_9.stl",
+"width_x": 44.0,
+"shaft_z-11": 6.5,
+"ferrule_z0": 13.5,
+"handle_z7": 26.65,
+"handle_z9": 26.94
+}
+],
+[
+"screwdriver_holder_wera_1427_awl.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_1427_awl.stl",
+"width_x": 40.0,
+"shaft_z-11": 7.5,
+"ferrule_z0": 7.5,
+"handle_z7": 21.57,
+"handle_z9": 21.86
+}
+],
+[
+"screwdriver_holder_wera_1428_reamer.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_1428_reamer.stl",
+"width_x": 40.0,
+"shaft_z-11": 7.5,
+"ferrule_z0": 7.5,
+"handle_z7": 21.57,
+"handle_z9": 21.86
+}
+],
+[
+"screwdriver_holder_wera_160iS_vde_flat_40.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_160iS_vde_flat_55.stl",
+"OK",
+{
+"shaft": 10.0,
+"ferrule": 10.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_160i_vde_flat_25.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_160i_vde_flat_25_v2.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_160i_vde_flat_30_v2.stl",
+"OK",
+{
+"shaft": 7.5,
+"ferrule": 7.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_160i_vde_flat_35.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_160i_vde_flat_35_v2.stl",
+"OK",
+{
+"shaft": 7.5,
+"ferrule": 7.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_160i_vde_flat_65_v2.stl",
+"OK",
+{
+"shaft": 9.5,
+"ferrule": 9.5,
+"handle_cls": "105-27",
+"dcls": -0.43,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_162iS_vde_ph_1.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_162iS_vde_ph_2.stl",
+"OK",
+{
+"shaft": 10.0,
+"ferrule": 10.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_162i_vde_ph_0.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "81",
+"dcls": -0.13,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_162i_vde_ph_2_v2.stl",
+"OK",
+{
+"shaft": 9.5,
+"ferrule": 9.5,
+"handle_cls": "105",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_162i_vde_ph_3_v2.stl",
+"OK",
+{
+"shaft": 12.5,
+"ferrule": 12.5,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_162i_vde_ph_4_v2.stl",
+"OK",
+{
+"shaft": 14.5,
+"ferrule": 14.5,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_165iS_vde_pz_1.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_165iS_vde_pz_2.stl",
+"OK",
+{
+"shaft": 10.0,
+"ferrule": 10.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_165iS_vde_pzs_1.stl",
+"OK",
+{
+"shaft": 7.5,
+"ferrule": 7.5,
+"handle_cls": "98",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_165iS_vde_pzs_2.stl",
+"OK",
+{
+"shaft": 9.5,
+"ferrule": 9.5,
+"handle_cls": "105",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_10.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_15.stl",
+"OK",
+{
+"shaft": 7.5,
+"ferrule": 7.5,
+"handle_cls": "98",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_20.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_25.stl",
+"OK",
+{
+"shaft": 10.0,
+"ferrule": 10.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_30.stl",
+"OK",
+{
+"shaft": 9.5,
+"ferrule": 9.5,
+"handle_cls": "105",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_5.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_6.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_7.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_8.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_167i_vde_tx_9.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_168i_vde_square_1.stl",
+"no catalogue data",
+{
+"shaft": 7.5,
+"ferrule": 7.5,
+"handle_cls": "98",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_168i_vde_square_2.stl",
+"no catalogue data",
+{
+"shaft": 9.5,
+"ferrule": 9.5,
+"handle_cls": "105",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_168i_vde_square_3.stl",
+"no catalogue data",
+{
+"shaft": 11.5,
+"ferrule": 11.5,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_247_flat_30.stl",
+"no catalogue data",
+{
+"shaft": 8.6,
+"ferrule": 8.6,
+"handle_cls": "70",
+"dcls": -0.22,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_334_flat_100.stl",
+"OK",
+{
+"shaft": 11.0,
+"ferrule": 11.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 9.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_334_flat_50.stl",
+"OK",
+{
+"shaft": 6.0,
+"ferrule": 6.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 5.0,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_334_flat_60.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 6.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_334_flat_65x150.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 6.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_334_flat_65x200.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 7.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_334_flat_70.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 7.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_334_flat_80.stl",
+"OK",
+{
+"shaft": 9.0,
+"ferrule": 9.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 7.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_25.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "70",
+"dcls": -0.22,
+"blade": 2.5,
+"wera_handle": "70"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_30.stl",
+"OK",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 3.0,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_35.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 3.5,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_40.stl",
+"OK",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 4.0,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_55.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 5.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_55_24mm.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "98-24",
+"dcls": -0.27,
+"blade": 5.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_335_flat_60.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 6.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_350_ph_0.stl",
+"OK",
+{
+"shaft": 4.0,
+"ferrule": 4.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 3.0,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_350_ph_1.stl",
+"OK",
+{
+"shaft": 5.5,
+"ferrule": 5.5,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 4.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_350_ph_1_24mm.stl",
+"OK",
+{
+"shaft": 5.5,
+"ferrule": 5.5,
+"handle_cls": "98-24",
+"dcls": -0.27,
+"blade": 4.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_350_ph_2.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 6.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_350_ph_3.stl",
+"OK",
+{
+"shaft": 9.0,
+"ferrule": 9.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 8.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_350_ph_4.stl",
+"OK",
+{
+"shaft": 11.0,
+"ferrule": 11.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 10.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_352_hex_100.stl",
+"no catalogue data",
+{
+"shaft": 13.0,
+"ferrule": 13.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_15.stl",
+"no catalogue data",
+{
+"shaft": 4.0,
+"ferrule": 4.0,
+"handle_cls": "70",
+"dcls": -0.97,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_20.stl",
+"no catalogue data",
+{
+"shaft": 4.0,
+"ferrule": 4.0,
+"handle_cls": "70",
+"dcls": -0.97,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_25.stl",
+"no catalogue data",
+{
+"shaft": 4.0,
+"ferrule": 4.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_30.stl",
+"no catalogue data",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_40.stl",
+"no catalogue data",
+{
+"shaft": 6.0,
+"ferrule": 6.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_50.stl",
+"no catalogue data",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_60.stl",
+"no catalogue data",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_352_hex_80.stl",
+"no catalogue data",
+{
+"shaft": 11.0,
+"ferrule": 11.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_355_pz_0.stl",
+"OK",
+{
+"shaft": 4.0,
+"ferrule": 4.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 3.0,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_355_pz_1.stl",
+"OK",
+{
+"shaft": 5.5,
+"ferrule": 5.5,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 4.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_355_pz_2.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 6.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_355_pz_3.stl",
+"OK",
+{
+"shaft": 9.0,
+"ferrule": 9.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 8.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_355_pz_4.stl",
+"OK",
+{
+"shaft": 11.0,
+"ferrule": 11.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 10.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_10.stl",
+"OK",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 4.0,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_15.stl",
+"OK",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 4.0,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_15_24mm.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "98-24",
+"dcls": -0.01,
+"blade": 4.0,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_20.stl",
+"OK",
+{
+"shaft": 5.5,
+"ferrule": 5.5,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": 4.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_20_24mm.stl",
+"OK",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "98-24",
+"dcls": -0.01,
+"blade": 4.5,
+"wera_handle": "98"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_25.stl",
+"OK",
+{
+"shaft": 6.0,
+"ferrule": 6.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 5.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_25_27mm.stl",
+"OK",
+{
+"shaft": 5.5,
+"ferrule": 5.5,
+"handle_cls": "105-27",
+"dcls": 0.0,
+"blade": 5.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_27.stl",
+"OK",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 5.5,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_30.stl",
+"OK",
+{
+"shaft": 7.0,
+"ferrule": 7.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": 6.0,
+"wera_handle": "105"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_40.stl",
+"OK",
+{
+"shaft": 8.0,
+"ferrule": 8.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": 7.0,
+"wera_handle": "112"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_5.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "70",
+"dcls": -0.22,
+"blade": 3.5,
+"wera_handle": "70"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_6.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "70",
+"dcls": -0.22,
+"blade": 3.5,
+"wera_handle": "70"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_7.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "70",
+"dcls": -0.22,
+"blade": 3.5,
+"wera_handle": "70"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_8.stl",
+"OK",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 3.5,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_367_tx_9.stl",
+"OK",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": 4.0,
+"wera_handle": "81"
+}
+],
+[
+"screwdriver_holder_wera_368_square_0.stl",
+"no catalogue data",
+{
+"shaft": 4.5,
+"ferrule": 4.5,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_368_square_00.stl",
+"no catalogue data",
+{
+"shaft": 4.0,
+"ferrule": 4.0,
+"handle_cls": "81",
+"dcls": 0.0,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_368_square_1.stl",
+"no catalogue data",
+{
+"shaft": 5.0,
+"ferrule": 5.0,
+"handle_cls": "98",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_368_square_2.stl",
+"no catalogue data",
+{
+"shaft": 6.5,
+"ferrule": 6.5,
+"handle_cls": "105",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_368_square_3.stl",
+"no catalogue data",
+{
+"shaft": 8.5,
+"ferrule": 8.5,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_368_square_4.stl",
+"no catalogue data",
+{
+"shaft": 8.5,
+"ferrule": 8.5,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_391_nut_60.stl",
+"no catalogue data",
+{
+"shaft": 13.0,
+"ferrule": 13.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_391_nut_70.stl",
+"no catalogue data",
+{
+"shaft": 13.0,
+"ferrule": 13.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_391_nut_80.stl",
+"no catalogue data",
+{
+"shaft": 13.0,
+"ferrule": 13.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_392.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_392.stl",
+"width_x": 44.0,
+"shaft_z-11": 12.0,
+"ferrule_z0": 12.0,
+"handle_z7": 25.66,
+"handle_z9": 25.87
+}
+],
+[
+"screwdriver_holder_wera_393S.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_393S.stl",
+"width_x": 44.0,
+"shaft_z-11": 12.0,
+"ferrule_z0": 12.0,
+"handle_z7": 25.66,
+"handle_z9": 25.87
+}
+],
+[
+"screwdriver_holder_wera_395_nut_100.stl",
+"no catalogue data",
+{
+"shaft": 10.3,
+"ferrule": 10.3,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_130.stl",
+"no catalogue data",
+{
+"shaft": 12.0,
+"ferrule": 12.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_50.stl",
+"no catalogue data",
+{
+"shaft": 8.2,
+"ferrule": 8.2,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_50_24mm_v2.stl",
+"no catalogue data",
+{
+"shaft": 7.7,
+"ferrule": 7.7,
+"handle_cls": "98-24",
+"dcls": -0.33,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_55.stl",
+"no catalogue data",
+{
+"shaft": 8.2,
+"ferrule": 8.2,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_55_24mm_v2.stl",
+"no catalogue data",
+{
+"shaft": 7.7,
+"ferrule": 7.7,
+"handle_cls": "98-24",
+"dcls": -0.33,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_60.stl",
+"no catalogue data",
+{
+"shaft": 8.2,
+"ferrule": 8.2,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_60_24mm_v2.stl",
+"no catalogue data",
+{
+"shaft": 7.7,
+"ferrule": 7.7,
+"handle_cls": "98-24",
+"dcls": -0.33,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_70.stl",
+"no catalogue data",
+{
+"shaft": 8.2,
+"ferrule": 8.2,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_395_nut_80.stl",
+"no catalogue data",
+{
+"shaft": 10.3,
+"ferrule": 10.3,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_811_1.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_811_1.stl",
+"width_x": 42.0,
+"shaft_z-11": 11.5,
+"ferrule_z0": 11.5,
+"handle_z7": 29.26,
+"handle_z9": 29.43
+}
+],
+[
+"screwdriver_holder_wera_812_1.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_812_1.stl",
+"width_x": 44.0,
+"shaft_z-11": 10.0,
+"ferrule_z0": 10.0,
+"handle_z7": 34.46,
+"handle_z9": 34.77
+}
+],
+[
+"screwdriver_holder_wera_816_ra.stl",
+"not a Wera model file",
+{
+"file": "screwdriver_holder_wera_816_ra.stl",
+"width_x": 46.0,
+"shaft_z-11": 15.5,
+"ferrule_z0": 15.5,
+"handle_z7": 30.68,
+"handle_z9": 30.89
+}
+],
+[
+"screwdriver_holder_wera_917_ph_1.stl",
+"no catalogue data",
+{
+"shaft": 7.0,
+"ferrule": 10.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_917_ph_2.stl",
+"no catalogue data",
+{
+"shaft": 8.0,
+"ferrule": 12.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_917_ph_3.stl",
+"no catalogue data",
+{
+"shaft": 10.0,
+"ferrule": 15.0,
+"handle_cls": "112",
+"dcls": -1.02,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_917_ph_3_v2.stl",
+"no catalogue data",
+{
+"shaft": 9.5,
+"ferrule": 15.0,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_917_ph_4_v2.stl",
+"no catalogue data",
+{
+"shaft": 19.0,
+"ferrule": 19.0,
+"handle_cls": "117",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_918_pz_1.stl",
+"no catalogue data",
+{
+"shaft": 7.0,
+"ferrule": 10.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_918_pz_2.stl",
+"no catalogue data",
+{
+"shaft": 8.0,
+"ferrule": 12.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_918_pz_3.stl",
+"no catalogue data",
+{
+"shaft": 10.0,
+"ferrule": 15.0,
+"handle_cls": "112",
+"dcls": -0.32,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_918_pz_4_v2.stl",
+"no catalogue data",
+{
+"shaft": 19.0,
+"ferrule": 19.0,
+"handle_cls": "117",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_100.stl",
+"no catalogue data",
+{
+"shaft": 10.0,
+"ferrule": 15.5,
+"handle_cls": "112",
+"dcls": -1.02,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_100_v2.stl",
+"no catalogue data",
+{
+"shaft": 9.5,
+"ferrule": 15.0,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_120_v2.stl",
+"no catalogue data",
+{
+"shaft": 19.0,
+"ferrule": 19.0,
+"handle_cls": "117",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_140_v2.stl",
+"no catalogue data",
+{
+"shaft": 19.0,
+"ferrule": 19.0,
+"handle_cls": "117",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_35.stl",
+"no catalogue data",
+{
+"shaft": 6.0,
+"ferrule": 6.0,
+"handle_cls": "81",
+"dcls": -0.23,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_45.stl",
+"no catalogue data",
+{
+"shaft": 7.0,
+"ferrule": 10.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_55.stl",
+"no catalogue data",
+{
+"shaft": 8.0,
+"ferrule": 12.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_70.stl",
+"no catalogue data",
+{
+"shaft": 8.0,
+"ferrule": 12.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_90.stl",
+"no catalogue data",
+{
+"shaft": 10.0,
+"ferrule": 15.5,
+"handle_cls": "112",
+"dcls": -1.02,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_932A_flat_90_v2.stl",
+"no catalogue data",
+{
+"shaft": 9.5,
+"ferrule": 15.0,
+"handle_cls": "112",
+"dcls": -0.01,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_977_tx_20.stl",
+"no catalogue data",
+{
+"shaft": 7.0,
+"ferrule": 10.0,
+"handle_cls": "98",
+"dcls": -0.26,
+"blade": null,
+"wera_handle": null
+}
+],
+[
+"screwdriver_holder_wera_977_tx_25.stl",
+"no catalogue data",
+{
+"shaft": 8.0,
+"ferrule": 12.0,
+"handle_cls": "105",
+"dcls": -0.29,
+"blade": null,
+"wera_handle": null
+}
+]
+]

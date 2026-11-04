@@ -1,0 +1,18 @@
+c41393_big_nosup | Success. | support_blocks=0 | ; total filament weight [g] : 41.01 | ; enable_support = 0
+c41393_big_sup | Success. | support_blocks=107 | ; total filament weight [g] : 41.17 | ; enable_support = 1
+c41393_hook_sup | Success. | support_blocks=0 | ; total filament weight [g] : 1.51 | ; enable_support = 1
+c41393_small_nosup | Success. | support_blocks=0 | ; total filament weight [g] : 44.22 | ; enable_support = 0
+c41393_small_sup | Success. | support_blocks=106 | ; total filament weight [g] : 44.39 | ; enable_support = 1
+h1782552_fixed_sup | Success. | support_blocks=0 | ; total filament weight [g] : 203.94 | ; enable_support = 1
+h1782552_sup | Success. | support_blocks=0 | ; total filament weight [g] : 205.12 | ; enable_support = 1
+h1808383_fixed_sup | Success. | support_blocks=0 | ; total filament weight [g] : 160.53 | ; enable_support = 1
+h1808383_sup | Success. | support_blocks=49 | ; total filament weight [g] : 160.31 | ; enable_support = 1
+proj_check | The input files to the slicer are not found. | support_blocks= |  | 
+w_917ph4_fix | Success. | support_blocks=19 | ; total filament weight [g] : 14.37 | ; enable_support = 1
+w_holex10_fix | Success. | support_blocks=19 | ; total filament weight [g] : 14.88 | ; enable_support = 1
+w_rail270 | Success. | support_blocks=0 | ; total filament weight [g] : 15.10 | ; enable_support = 1
+w_rail_skadis | Success. | support_blocks=24 | ; total filament weight [g] : 15.69 | ; enable_support = 1
+w_rail_skadis_flip | Success. | support_blocks=48 | ; total filament weight [g] : 22.98 | ; enable_support = 1
+w_tx25_fix | Success. | support_blocks=19 | ; total filament weight [g] : 13.84 | ; enable_support = 1
+w_tx25_fix_bp | Success. | support_blocks=19 | ; total filament weight [g] : 13.84 | ; enable_support = 1
+w_tx25_orig | Success. | support_blocks=19 | ; total filament weight [g] : 13.53 | ; enable_support = 1

@@ -2,6 +2,8 @@
 
 Data: 2026-11-04. Drukarka docelowa: Bambu Lab X2D, dysza 0,4, PETG. Licencje i teksty do ogłoszeń: `CREDITS.md`.
 
+**Uchwyty na wkrętaki** (1808383, 1782552, 41393, 123412): folder `wkretaki/`, opis w `wkretaki/README.md`. Tam slicer to już Bambu Studio z profilem X2D.
+
 ## Wynik w skrócie
 
 | # | Model | Licencja | Co drukować | Stan po sprawdzeniu |

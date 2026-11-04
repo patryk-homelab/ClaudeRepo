@@ -1,0 +1,74 @@
+[
+{
+"file": "ref_105-27.stl",
+"width_x": 40.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 30.77,
+"handle_z9": 31.03
+},
+{
+"file": "ref_105.stl",
+"width_x": 40.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 29.92,
+"handle_z9": 30.17
+},
+{
+"file": "ref_112.stl",
+"width_x": 44.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 34.81,
+"handle_z9": 35.09
+},
+{
+"file": "ref_117.stl",
+"width_x": 46.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 37.33,
+"handle_z9": 37.61
+},
+{
+"file": "ref_54.stl",
+"width_x": 38.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 29.26,
+"handle_z9": 29.44
+},
+{
+"file": "ref_70.stl",
+"width_x": 36.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 19.55,
+"handle_z9": 19.76
+},
+{
+"file": "ref_81.stl",
+"width_x": 36.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 21.85,
+"handle_z9": 22.06
+},
+{
+"file": "ref_98-24.stl",
+"width_x": 36.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 27.55,
+"handle_z9": 27.77
+},
+{
+"file": "ref_98.stl",
+"width_x": 36.0,
+"shaft_z-11": 4.5,
+"ferrule_z0": 4.5,
+"handle_z7": 25.92,
+"handle_z9": 26.13
+}
+]
