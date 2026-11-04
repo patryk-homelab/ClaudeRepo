@@ -17,39 +17,32 @@ GRID = f"""<svg class="iso" xmlns="http://www.w3.org/2000/svg"><defs><pattern id
 <rect width="100%" height="100%" fill="url(#g)"/></svg>"""
 
 CSS = (A / "fonts.css").read_text() + """
-:root{--red:#E51636;--ink:#1D1D1B;--wa:#2FA552}
+:root{--red:#E51636}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1080px}
 body{font-family:'Space Grotesk',sans-serif;-webkit-font-smoothing:antialiased}
 .sheet{position:relative;width:1080px;height:1080px;overflow:hidden;background:var(--red);color:#fff}
 .iso{position:absolute;inset:0;width:100%;height:100%}
-.cube{position:absolute;right:-30px;top:-40px;height:400px}
-.brand{position:absolute;left:72px;top:78px;height:92px}
-.hd{position:absolute;left:72px;right:72px;top:285px}
-.hd h1{font-size:104px;line-height:.98;font-weight:700;letter-spacing:-.02em}
-.hd p{margin-top:24px;font-size:34px;line-height:1.3}
-.tags{position:absolute;left:72px;right:72px;top:688px;display:flex;flex-wrap:wrap;gap:14px}
-.tags i{font-style:normal;background:var(--red);font-family:'Space Mono',monospace;font-weight:700;font-size:25px;letter-spacing:.1em;border:2px solid #ffffffb3;border-radius:40px;padding:8px 20px}
-.card{position:absolute;left:48px;right:48px;bottom:48px;height:270px;background:#fff;color:var(--ink);border-radius:24px;display:flex;align-items:center;gap:40px;padding:0 44px}
-.card .txt{flex:1;min-width:0}
-.card .wa{font-size:30px;font-weight:700;color:var(--wa)}
-.card .tel{font-size:70px;font-weight:700;letter-spacing:-.01em;line-height:1.05;margin:6px 0 12px;color:var(--red)}
-.card .more{font-size:28px;line-height:1.35}
-.card .more b{font-weight:700}
-.card .qr{width:190px;height:190px;flex:none}
-.card .qr svg{display:block;width:100%;height:100%}
+.logo{position:absolute;left:84px;top:96px;display:flex;align-items:center;gap:28px}
+.logo .c{height:132px}.logo .w{height:92px}
+.hd{position:absolute;left:84px;right:84px;top:418px}
+.hd h1{font-size:104px;white-space:nowrap;line-height:.98;font-weight:700;letter-spacing:-.025em}
+.hd p{margin-top:40px;font-family:'Space Mono',monospace;font-size:24px;letter-spacing:.14em;opacity:.92}
+.ct{position:absolute;left:84px;right:84px;bottom:96px;border-top:2px solid #ffffff99;padding-top:34px;display:grid;grid-template-columns:auto auto auto;justify-content:space-between;gap:28px}
+.ct span{display:block;font-family:'Space Mono',monospace;font-size:20px;letter-spacing:.12em;opacity:.8}
+.ct b{display:block;margin-top:10px;font-size:40px;font-weight:700;letter-spacing:-.005em}
 """
 
 HTML = f"""<!doctype html><html lang=pl><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=sheet>
 {GRID}
-<img class=cube src="assets/cube.svg">
-<img class=brand src="assets/wordmark.svg">
-<div class=hd><h1>Wydrukujemy<br>to w 3D.</h1>
-<p>Na wymiar, od jednej sztuki.<br>Wyślij zdjęcie lub wymiary. Wycena bez zobowiązań.</p></div>
-<div class=tags><i>NAPRAWA</i><i>WARSZTAT</i><i>FIRMY</i><i>PREZENTY</i></div>
-<div class=card><div class=txt><div class=wa>Napisz na WhatsApp</div><div class=tel>+48 609 692 311</div>
-<div class=more>rubikon3d.com · FB / IG: <b>Rubikon3D</b></div></div>
-<div class=qr>{qr('fb')}</div></div>
+<div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div>
+<div class=hd><h1>Masz pomysł?<br>Wydrukujemy to.</h1>
+<p>NA WYMIAR · CZĘŚCI ZAMIENNE · PREZENTY</p></div>
+<div class=ct>
+ <div><span>FACEBOOK / INSTAGRAM</span><b>Rubikon3D</b></div>
+ <div><span>TEL. / WHATSAPP</span><b>609 692 311</b></div>
+ <div><span>STRONA</span><b>rubikon3d.com</b></div>
+</div>
 </div></body></html>"""
 
 html = B / "social-fb.html"

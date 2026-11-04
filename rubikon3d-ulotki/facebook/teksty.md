@@ -1,14 +1,17 @@
 # Odpowiedzi do grup na Facebooku (wklej tekst + dołącz grafikę Rubikon3D-grafika-FB-1080.png)
 
-## 1. Ogólna
-Cześć! Mogę to wydrukować w 3D. Wyślij zdjęcie albo wymiary na WhatsApp, wycenię bez zobowiązań:
-https://wa.me/48609692311
-Tel. 609 692 311 · rubikon3d.com
+## Ze strony Rubikon3D
+### 1. Ogólna
+Cześć! Możemy to wydrukować w 3D. Napisz do nas wiadomość, najlepiej ze zdjęciem albo wymiarami. Wycena bez zobowiązań.
 
-## 2. Naprawa / brakująca część
-Cześć! Taką część da się dorobić w druku 3D. Wyślij mi zdjęcie (najlepiej z linijką obok) i najważniejsze wymiary, sprawdzę i wycenię:
-https://wa.me/48609692311
-Tel. 609 692 311
+### 2. Naprawa / brakująca część
+Cześć! Taką część da się dorobić w druku 3D. Wyślij nam w wiadomości zdjęcie (najlepiej z linijką obok) i najważniejsze wymiary, sprawdzimy i wycenimy.
 
-## 3. Krótka
-Wydrukuję to w 3D. Napisz na WhatsApp, wycena bez zobowiązań: https://wa.me/48609692311
+## Z konta prywatnego
+### 3. Ogólna
+Cześć! Zajmuję się drukiem 3D (@Rubikon3D) i mogę to wydrukować. Napisz do mnie prywatnie albo na stronę, najlepiej ze zdjęciem albo wymiarami. Wycena bez zobowiązań.
+
+### 4. Krótka
+Mogę to wydrukować w 3D. Napisz do mnie prywatnie, wycena bez zobowiązań.
+
+Wskazówka: w wersji 3 wpisz @Rubikon3D i wybierz stronę z listy, wtedy nazwa stanie się linkiem.
