@@ -33,7 +33,7 @@ body{font-family:'Space Grotesk',sans-serif;-webkit-font-smoothing:antialiased}
 .cats span{display:block;font-family:'Space Mono',monospace;font-weight:700;font-size:20px;letter-spacing:.12em}
 .cats b{display:block;margin-top:6px;font-size:29px;font-weight:400}
 .ct{position:absolute;left:84px;right:84px;bottom:84px;border-top:2px solid #ffffffd9;padding-top:30px;display:grid;grid-template-columns:auto auto auto;justify-content:space-between;gap:28px}
-.ct span{display:block;font-family:'Space Mono',monospace;font-size:20px;letter-spacing:.12em;opacity:.8}
+.ct span{display:block;white-space:nowrap;font-family:'Space Mono',monospace;font-size:18px;opacity:.85}
 .ct b{display:block;margin-top:10px;font-size:40px;font-weight:700;letter-spacing:-.005em}
 """
 
@@ -49,9 +49,9 @@ HTML = f"""<!doctype html><html lang=pl><head><meta charset=utf-8><style>{CSS}</
  <div><span>PREZENTY</span><b>lampka ze zdjęciem, mapa 3D</b></div>
 </div>
 <div class=ct>
- <div><span>FACEBOOK / INSTAGRAM</span><b>Rubikon3D</b></div>
+ <div><span>FB / INSTAGRAM</span><b>Rubikon3D</b></div>
  <div><span>TEL. / WHATSAPP</span><b>609 692 311</b></div>
- <div><span>STRONA</span><b>rubikon3d.com</b></div>
+ <div><span>STRONA INTERNETOWA</span><b>rubikon3d.com</b></div>
 </div>
 </div></body></html>"""
 
@@ -59,7 +59,7 @@ html = B / "social-fb.html"
 html.write_text(HTML)
 js = f"""const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch();
 const p=await b.newPage({{viewport:{{width:1080,height:1080}},deviceScaleFactor:2}});
-await p.goto('file://{html}');await p.evaluate(()=>document.fonts.ready);
+await p.goto('file://{html}');await p.evaluate(()=>document.fonts.ready);await p.evaluate(()=>{{for(const d of document.querySelectorAll('.ct>div')){{const l=d.querySelector('span'),v=d.querySelector('b');const w=e=>{{const r=document.createRange();r.selectNodeContents(e);return r.getBoundingClientRect().width}};l.style.letterSpacing='0px';const n=[...l.textContent].length;const ls=(w(v)-w(l))/(n-1);l.style.letterSpacing=ls+'px';l.style.marginRight=(-ls)+'px';l.dataset.fit=ls.toFixed(2)}}}});console.log(await p.evaluate(()=>[...document.querySelectorAll('.ct>div')].map(d=>{{const w=e=>{{const r=document.createRange();r.selectNodeContents(e);return r.getBoundingClientRect().width}};return d.querySelector('span').textContent+' ls='+d.querySelector('span').dataset.fit+' label='+(w(d.querySelector('span'))+parseFloat(d.querySelector('span').style.marginRight)).toFixed(1)+' value='+w(d.querySelector('b')).toFixed(1)}}).join(' | ')));
 await p.screenshot({{path:'{OUT}/Rubikon3D-grafika-FB-1080.png'}});await b.close()}})()"""
 subprocess.run(["node", "-e", js], check=True, cwd=B)
 html.unlink()
