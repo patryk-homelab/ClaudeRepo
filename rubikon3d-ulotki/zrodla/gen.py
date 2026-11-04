@@ -10,8 +10,8 @@ def qr(k):
     s = re.sub(r'width="\d+" height="\d+"', f'viewBox="0 0 {n} {n}" shape-rendering="crispEdges"', s, count=1)
     return s
 
-ISO = """<svg class="iso" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="iso{id}" width="6.928mm" height="8mm" patternUnits="userSpaceOnUse" viewBox="0 0 6.928 8">
-<g stroke="{c}" stroke-width="0.15" fill="none"><path d="M0 0V8M0 0L6.928 4M0 4L6.928 0M0 4L6.928 8M0 8L6.928 4"/></g></pattern></defs>
+ISO = """<svg class="iso" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="iso{id}" width="13.856mm" height="8mm" patternUnits="userSpaceOnUse" viewBox="0 0 13.856 8">
+<g stroke="{c}" stroke-width="{w}" fill="none"><path d="M0 -1V9M6.928 -1V9M13.856 -1V9M0 0L13.856 8M0 8L13.856 0M-6.928 4L6.928 12M-6.928 4L6.928 -4M6.928 -4L20.784 4M6.928 12L20.784 4"/></g></pattern></defs>
 <rect width="100%" height="100%" fill="url(#iso{id})"/></svg>"""
 
 CSS = (A / "fonts.css").read_text() + """
@@ -56,7 +56,7 @@ A_CSS = """
 .bot .wa{font-size:7.4pt;color:var(--wa);font-weight:700;margin:1mm 0 1.4mm}
 """
 A_BODY = f"""
-<div class=top>{ISO.format(id='a', c='#ffffff2b')}
+<div class=top>{ISO.format(w='0.3', id='a', c='#EA425C')}
  <div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div>
  <div class=thx><h1>Dziękujemy<br>za zamówienie!</h1>
  <p>Twoje zamówienie wydrukowaliśmy z dbałością o każdy detal. Mamy nadzieję, że długo posłuży.</p></div>
@@ -90,7 +90,7 @@ B_CSS = """
 .bot .en{margin-top:1.6mm;font-size:6.6pt;opacity:.7}
 """
 B_BODY = f"""
-<div class=top>{ISO.format(id='b', c='#ffffff33')}
+<div class=top>{ISO.format(w='0.3', id='b', c='#EA455E')}
  <div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div></div>
 <div class=hd><h1>Masz pomysł?<br>Wydrukujemy to.</h1>
  <p>Projektujemy i drukujemy w 3D rzeczy, których nie kupisz w sklepie: na wymiar, w jednym egzemplarzu albo w serii.</p></div>
@@ -122,7 +122,7 @@ C_CSS = """
 .card .wa{font-size:7.2pt;color:var(--wa);font-weight:700;margin:1.2mm 0 1.4mm}
 """
 C_BODY = f"""
-<div class=bg></div>{ISO.format(id='c', c='#ffffff2e')}
+<div class=bg></div>{ISO.format(w='0.3', id='c', c='#EA405A')}
 <img class=big src="assets/cube.svg">
 <img class=brand src="assets/wordmark.svg">
 <div class=hd><h1>Zepsuło się?<br>Nie wyrzucaj.</h1>
@@ -150,7 +150,7 @@ B2_CSS = A_CSS + """
 .bot .en{margin-top:1.2mm;font-size:6.4pt;opacity:.65}
 """
 B2_BODY = f"""
-<div class=top>{ISO.format(id='b2', c='#ffffff33')}
+<div class=top>{ISO.format(w='0.3', id='b2', c='#EA455E')}
  <div class=logo><img class=c src="assets/cube.svg"><img class=w src="assets/wordmark.svg"></div>
  <div class=thx><h1>Masz pomysł?<br>Wydrukujemy to.</h1>
  <p>Projektujemy i drukujemy w 3D rzeczy, których nie kupisz w sklepie: na wymiar, w jednym egzemplarzu albo w serii.</p></div>
@@ -183,7 +183,7 @@ D_CSS = C_CSS + """
 .card .qr{width:26mm;height:26mm}
 """
 D_BODY = f"""
-<div class=bg></div>{ISO.format(id='d', c='#ffffff2b')}
+<div class=bg></div>{ISO.format(w='0.3', id='d', c='#EA425C')}
 <img class=big src="assets/cube.svg">
 <img class=brand src="assets/wordmark.svg">
 <div class=hd><h1>Zepsuło się?<br>Nie ma w sklepie?<br>Wydrukujemy to.</h1>
